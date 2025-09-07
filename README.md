@@ -29,9 +29,15 @@ It kept failing with the error: `The Mac "Mac" could not be updated. An unknown 
 
 a. `AMRestoreErrorDomain error 75 - Failed to handle message type StatusMsg (Missing data volume)) [AMRestoreErrorDomain - 0x48 (75)]` which according to the Wiki meant: *75 - T2 booted in recovery mode (Revive wont work).*
 
+![75 Error][8]
+
 b. `Failed to create new state machine for restore [com.apple.MobileDevice.MobileRestore - 0xFB1 (4017)]` which I think was just because I was being impatient and tried to start another upload of the firmware while it was stuck on the Apple logo loading bar(I can now get the Apple Logo to appear at will. I can turn the Mac off and then restart the restore process in *Apple Configurator* to get it to return to the logo)
 
+![4017 Error][9]
+
 c. `(AMRestoreErrorDomain error -1 - Failed to handle message type StatusMsg (Generic error))[AMRestoreErrorDomain - 0xFFFFFFFFFFFFFFFF (-1) [sys = 0x3F, sub = 0xFF, code = 0x3ff (16383)]]` which I assume means I am screwed...
+
+![16283 Error][10]
 
 **Conclusion:**
 MacBook Pro was bricked after attempting to do a combo upgrade. Tried Recovery Mode, NVRAM & SMC reset, and DFU restore. Going to take it to Apple Repair Specialist to see if it can be fixed even though it is not under warranty, and will post an update here on the results.
@@ -44,4 +50,6 @@ MacBook Pro was bricked after attempting to do a combo upgrade. Tried Recovery M
   [5]: https://mrmacintosh.com/how-to-restore-bridgeos-on-a-t2-mac-how-to-put-a-mac-into-dfu-mode/
   [6]: https://logi.wiki/index.php/DFU_Mode_Restore_(Macs)
   [7]: DFU-Errors/IMG_6558.jpg
-  
+  [8]: DFU-Errors/IMG_6560.jpg
+  [9]: DFU-Errors/IMG_6561.jpg
+  [10]: DFU-Errors/IMG_6562.jpg
