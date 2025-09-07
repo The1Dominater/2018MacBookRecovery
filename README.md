@@ -1,4 +1,5 @@
-**Problem**
+**Problem:**
+
 Currently my 2018 MacBook Pro 13"(4-Thunderbolt USB-C) Model A1989 with a T2 security chip will not boot even into recovery mode. The closet I can get is to booting is the Apple Logo with progress bar stuck at about 90%. At this point it hangs(I let it sit for 3 hours) with the fans on full blast.
 
 **What I have tried:**
