@@ -1,0 +1,2201 @@
+2025-09-06 19:51:31.000 AMPDevicesAgent[3665:21bc9]: restore library built Mar 15 2025 at 10:42:36
+2025-09-06 19:51:31.000 AMPDevicesAgent[3665:21bc9]: AMPDevicesAgent: 1.4.6.32
+2025-09-06 19:51:31.000 AMPDevicesAgent[3665:21bc9]: AMPDevicesAgent: Apple Mobile Device version: 1784.102.1
+2025-09-06 19:51:31.000 AMPDevicesAgent[3665:21bc9]: AMPDevicesAgent: Software payload version: 22P6083
+2025-09-06 19:51:31.000 AMPDevicesAgent[3665:21bc9]: AMPDevicesAgent: Using MobileRestore state machine
+[19:51:32.0966] DFU mode device can't get board config with NULL device map
+[19:51:32.0966] failed to get board config from DFU mode device
+[19:51:32.0969] failed to get serial number from DFU mode device
+[19:51:32.0983] AMRestorableDeviceCopyPSDProbe: Failure to locate probe for [0x14100000] in IORegistry
+[19:51:32.0984] =====================================================
+[19:51:32.0984] Device info:
+[19:51:32.0984] 	board configuration: (null)
+[19:51:32.0984] 	Board ID: 0xC
+[19:51:32.0984] 	Chip ID: 0x8012
+[19:51:32.0984] 	ECID: 0x1850A621EA0026
+[19:51:32.0984] 	Serial Number: (null)
+[19:51:32.0984] 	USB Location: 0x14100000
+[19:51:32.0984] 	USB Name: (null)
+[19:51:32.0984] 	Starting State: DFU
+[19:51:32.0984] 	Production Fused: YES
+[19:51:32.0984] 
+[19:51:32.0984] Build Info:
+[19:51:32.0984] 	Restore Bundle Path: /var/folders/zk/hkgbrn6s0692p78d3hpr6r200000gn/T/Mac-Temporary-Files.noindex
+[19:51:32.0984] =====================================================
+[19:51:32.0991] Could not find parent entry!
+[19:51:32.0991] Could not get builtin port for service 168743
+[19:51:32.1007] Successfully applied power assertion
+[19:51:32.1008] requested restore behavior: Erase
+[19:51:32.1011] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: searching for variant Erase (0 recovery)
+[19:51:32.1351] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: No baseband chipid reported. Will match Build Identity based on ap chipid, boardid, and secdomain only.
+[19:51:32.1353] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: AMAuthInstallBundleCopyBuildIdentityForVariant: Found variant: Customer Erase Install (IPSW)
+[19:51:32.1441] Automatically set FormatForAPFS => True and FormatForLwVM => False.
+[19:51:32.1443] Failed to create recovery OS variant , no recovery variant in options nor restore variant.
+[19:51:32.1444] requested restore behavior: Erase
+[19:51:32.1447] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: variant not specified, will use first variant found for this device in build manifest
+[19:51:32.1773] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: No baseband chipid reported. Will match Build Identity based on ap chipid, boardid, and secdomain only.
+[19:51:32.1781] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: AMAuthInstallBundleCopyBuildIdentityForVariant: Found variant: Customer Erase Install (IPSW)
+[19:51:32.1893] Couldn't find recovery OS variant in the restore variant based on the behavior based variant.
+[19:51:32.1898] No recovery variant found in bundle, continue without recovery OS installation.
+[19:51:32.1903] Not setting apfs boot-args because option is not set to true.
+[19:51:32.1912] Changing state from '(null)' to 'Restoring'
+[19:51:32.1919] requested restore behavior: Erase
+[19:51:32.1928] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: searching for variant Erase (0 recovery)
+[19:51:32.2203] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: AMAuthInstallBundleCopyBuildIdentityForVariant: Found variant: Customer Erase Install (IPSW)
+[19:51:32.2292] amai: AMAuthInstallBundleFDRSupported: FDR is supported for this device
+[19:51:32.2295] no override trust object found
+[19:51:32.2296] requested restore behavior: Erase
+[19:51:32.2296] requested restore behavior: Erase
+[19:51:32.2296] requested variant: Erase
+[19:51:32.2297] no override trust object found
+[19:51:32.2297] requested restore behavior: Erase
+[19:51:32.2298] *** UUID BC9BBAE0-2CC5-480C-8B5F-BD48721E6EBA ***
+[19:51:32.2299] requested restore behavior: Erase
+[19:51:32.2304] amai: AMAuthInstallBundleFDRSupported: FDR is supported for this device
+[19:51:32.2304] amai: _AMAuthInstallBundleShouldPersonalizeOS: Personalize OS = Yes
+[19:51:32.2311] amai: _AMAuthInstallBundleShouldPersonalizeOS: Personalize OS = Yes
+[19:51:32.2313] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2314] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2314] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2315] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2317] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2317] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2319] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2320] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2320] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2320] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2320] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2320] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2321] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2321] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2321] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2322] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2322] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2322] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2327] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2343] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2344] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2344] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2344] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2344] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:32.2416] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreDeviceTree to Manifest to personalize later
+[19:51:32.2970] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreKernelCache to Manifest to personalize later
+[19:51:32.5878] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreRamDisk to Manifest to personalize later
+[19:51:32.5940] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting iBEC to Manifest to personalize later
+[19:51:32.5983] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting iBSS to Manifest to personalize later
+[19:51:32.6394] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting KernelCache to Manifest to personalize later
+[19:51:32.6395] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting ftap to Manifest to personalize later
+[19:51:32.6397] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting rfta to Manifest to personalize later
+[19:51:32.6398] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting ftsp to Manifest to personalize later
+[19:51:32.6398] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting rfts to Manifest to personalize later
+[19:51:32.6403] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting Ap,SystemVolumeCanonicalMetadata to Manifest to personalize later
+[19:51:32.6407] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting SystemVolume to Manifest to personalize later
+[19:51:32.6408] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting OS to Manifest to personalize later
+[19:51:32.6460] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting LLB to Manifest to personalize later
+[19:51:32.6594] amai: AMAuthInstallApImg4CopyPayloadVersionProperty: failed to parse version property: 1952607603, error:1
+[19:51:32.6594] amai: AMAuthInstallApImg4CreateMeasurementsWithTag: could not get tbms property, status:23
+[19:51:32.6594] 
+[19:51:32.6598] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting SEP to Manifest to personalize later
+[19:51:32.6617] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting AOP to Manifest to personalize later
+[19:51:32.6621] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreTrustCache to Manifest to personalize later
+[19:51:32.6625] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting StaticTrustCache to Manifest to personalize later
+[19:51:32.6635] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting InputDevice to Manifest to personalize later
+[19:51:32.6796] amai: AMAuthInstallApImg4CopyPayloadVersionProperty: failed to parse version property: 1952607602, error:1
+[19:51:32.6797] amai: AMAuthInstallApImg4CreateMeasurementsWithTag: could not get tbmr property, status:23
+[19:51:32.6797] 
+[19:51:32.6800] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreSEP to Manifest to personalize later
+[19:51:32.7033] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting MacEFI to Manifest to personalize later
+[19:51:32.7038] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting DeviceTree to Manifest to personalize later
+[19:51:32.7082] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting iBoot to Manifest to personalize later
+[19:51:32.7083] amai: _AMAuthInstallBundleCreateServerRequestDictionary: ticketPath amai/apimg4ticket.der , withApTicket is True,  (!False && ( True || False))
+[19:51:32.7084] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "RestoreLogo" not part of manifest, skipping
+[19:51:32.7086] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "RestoreDeviceTree" Digest = "<CFData 0x7fdbf678efe0 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0xfb09c390fd479d4f6c90b3aaa2f79edb ... 7d602ef517f0c285}"
+[19:51:32.7086] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "RestoreKernelCache" Digest = "<CFData 0x7fdbf705d1d0 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x5405e9767d103ddb201cea6d9658c192 ... b9d4d54632a5d7f5}"
+[19:51:32.7087] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "RestoreRamDisk" Digest = "<CFData 0x7fdbf710c1b0 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x3e2cbeba079c42cc7b497038ad194689 ... 18d165096686131a}"
+[19:51:32.7088] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "OSRamdisk" not part of manifest, skipping
+[19:51:32.7090] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "iBEC" Digest = "<CFData 0x7fdbf678ffe0 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x19f0052a66fec649ddd59874db1c7d1d ... e37e8d63e88e84cf}"
+[19:51:32.7091] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "iBSS" Digest = "<CFData 0x7fdbf6790600 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x37890c23a607b5dad5a5835d37a85f83 ... 7713e56ee6d52679}"
+[19:51:32.7092] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "KernelCache" Digest = "<CFData 0x7fdbf6790160 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0xe406a549f2baa4002fa35417202a5781 ... ff02fad187a4b0d0}"
+[19:51:32.7093] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "ftap"
+[19:51:32.7094] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "rfta"
+[19:51:32.7095] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "ftsp"
+[19:51:32.7096] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "rfts"
+[19:51:32.7097] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "Ap,SystemVolumeCanonicalMetadata" Digest = "<CFData 0x7fdbf712c120 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x44de42a78e6f7031353116dff6de4f1f ... c81683a0c371bbb7}"
+[19:51:32.7098] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "x86,SystemVolumeCanonicalMetadata" not part of manifest, skipping
+[19:51:32.7099] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "BaseSystemVolume" not part of manifest, skipping
+[19:51:32.7099] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "x86,BaseSystemVolume" not part of manifest, skipping
+[19:51:32.7100] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "SystemVolume" Digest = "<CFData 0x7fdbf712a000 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x8f9f4727ae947efecfd2d6a25ff55aaa ... c067ea4f762df3cc}"
+[19:51:32.7101] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "x86,SystemVolume" not part of manifest, skipping
+[19:51:32.7101] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "Ap,BaseSystemTrustCache" not part of manifest, skipping
+[19:51:32.7102] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "Diags" not part of manifest, skipping
+[19:51:32.7103] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "CFELoader" not part of manifest, skipping
+[19:51:32.7103] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "RBM" not part of manifest, skipping
+[19:51:32.7104] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "PHLEET" not part of manifest, skipping
+[19:51:32.7104] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "PERTOS" not part of manifest, skipping
+[19:51:32.7105] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "PEHammer" not part of manifest, skipping
+[19:51:32.7107] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "Alamo" not part of manifest, skipping
+[19:51:32.7108] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "OS"
+[19:51:32.7108] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "LLB" Digest = "<CFData 0x7fdbf704d150 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0xcdd524ed885433cf54dd09a18080a574 ... 6e76f748ab442928}"
+[19:51:32.7110] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "SEP" Digest = "<CFData 0x7fdbf6793fc0 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x213748d540c623dce136552812eb9d85 ... af2008e2442d8ec8}"
+[19:51:32.7110] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "AOP" Digest = "<CFData 0x7fdbf6723c30 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x461582275d6fe9241e40ad34518a8ed0 ... 98eb229efe77ac2d}"
+[19:51:32.7112] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "RestoreTrustCache" Digest = "<CFData 0x7fdbf706b250 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x5c8e67d76da03e435600cd391b501e04 ... 146077490590994f}"
+[19:51:32.7113] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "StaticTrustCache" Digest = "<CFData 0x7fdbf7045cb0 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x9fb4b65a0a313a1702a22265eaabd5a8 ... 6b2fddea63433fe1}"
+[19:51:32.7114] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "InputDevice" Digest = "<CFData 0x7fdbf700cbb0 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x3cf79375f4f1c547fbc1ccc9092bed2c ... c8f64abdd3d165e5}"
+[19:51:32.7115] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "RestoreSEP" Digest = "<CFData 0x7fdbf72a2a90 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x8bc8f616c9b84269f4ba90f99d3b3a4c ... 762499327aa602ec}"
+[19:51:32.7116] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "MacEFI" Digest = "<CFData 0x7fdbf7128e30 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x439c5d8d30353b9bea068e2a82984ce9 ... 21988a50e7f88bb1}"
+[19:51:32.7117] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "DeviceTree" Digest = "<CFData 0x7fdbf717d190 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0xd0c7488f4f1844afd308fc64fed8fcd5 ... 3c20aa08c69e61c1}"
+[19:51:32.7118] amai: _AMAuthInstallBundleCreateServerRequestDictionary: personalizing "iBoot" Digest = "<CFData 0x7fdbf67901d0 [0x7ff847d08790]>{length = 48, capacity = 48, bytes = 0x28310d555650c1307b4f6de134e6c83f ... 21ff55781612f65a}"
+[19:51:32.7118] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property UniqueBuildID into request
+[19:51:32.7119] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,TargetType into request
+[19:51:32.7120] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,ProductType into request
+[19:51:32.7120] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,SDKPlatform into request
+[19:51:32.7121] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,Target into request
+[19:51:32.7123] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,ProductMarketingVersion into request
+[19:51:32.7123] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,Timestamp into request. (Via BuildManifest)
+[19:51:32.7124] amai: _AMAuthInstallBundlePopulateManifestProperties: Finished copying manifest entitlements.
+[19:51:32.7141] amai: AMAuthInstallRequestSendSyncWithHeader: SSO function returned NULL and no SSO token was provided, SSO disabled.
+[19:51:32.7151] amai: tss_submit_job_with_retry: TSS Connection attempt 1 of 3.  (Will retry if TSS_ERR_SERVER_NOT_REACHABLE.)
+[19:51:33.0224] amai: AMAuthInstallRequestSendSyncWithHeader: received tss response (server version: 2.1.0)
+[19:51:33.0236] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "RestoreLogo"
+[19:51:33.1393] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "OSRamdisk"
+[19:51:33.1644] amai: _AMAuthInstallBundleInstallPersonalizedEntry: entry "ftap" does not require personalization; skipping it
+[19:51:33.1645] amai: _AMAuthInstallBundleInstallPersonalizedEntry: entry "rfta" does not require personalization; skipping it
+[19:51:33.1648] amai: _AMAuthInstallBundleInstallPersonalizedEntry: entry "ftsp" does not require personalization; skipping it
+[19:51:33.1648] amai: _AMAuthInstallBundleInstallPersonalizedEntry: entry "rfts" does not require personalization; skipping it
+[19:51:33.1661] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "x86,SystemVolumeCanonicalMetadata"
+[19:51:33.1662] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "BaseSystemVolume"
+[19:51:33.1663] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "x86,BaseSystemVolume"
+[19:51:33.1673] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "x86,SystemVolume"
+[19:51:33.1673] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "Ap,BaseSystemTrustCache"
+[19:51:33.1675] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "Diags"
+[19:51:33.1677] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "CFELoader"
+[19:51:33.1677] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "RBM"
+[19:51:33.1677] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "PHLEET"
+[19:51:33.1678] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "PERTOS"
+[19:51:33.1679] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "PEHammer"
+[19:51:33.1681] amai: _AMAuthInstallBundlePopulatePersonalizedBundle: no entry in manifest found for "Alamo"
+[19:51:33.1681] amai: _AMAuthInstallBundleInstallPersonalizedEntry: entry "OS" does not require personalization; skipping it
+[19:51:33.2097] Setting kAMRestoreOptionsiBootEANNuke.
+[19:51:33.2099] <DFU Device 0x7fdbf6783cb0>: production fused device
+[19:51:33.2101] requested restore behavior: Erase
+[19:51:33.2189] Issued GETSTATE request: state = 0x2
+[19:51:33.2192] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 0
+[19:51:33.2194] Issuing DNLOAD request
+[19:51:33.2217] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2218] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 0
+[19:51:33.2220] Issuing DNLOAD request
+[19:51:33.2238] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2239] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 0
+[19:51:33.2240] Issuing DNLOAD request
+[19:51:33.2256] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2257] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 0
+[19:51:33.2258] Issuing DNLOAD request
+[19:51:33.2275] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2275] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 0
+[19:51:33.2277] Issuing DNLOAD request
+[19:51:33.2301] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2306] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 0
+[19:51:33.2307] Issuing DNLOAD request
+[19:51:33.2323] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2324] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 1
+[19:51:33.2325] Issuing DNLOAD request
+[19:51:33.2346] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2347] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 1
+[19:51:33.2349] Issuing DNLOAD request
+[19:51:33.2368] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2369] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 1
+[19:51:33.2370] Issuing DNLOAD request
+[19:51:33.2395] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2397] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 1
+[19:51:33.2398] Issuing DNLOAD request
+[19:51:33.2415] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2417] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 1
+[19:51:33.2417] Issuing DNLOAD request
+[19:51:33.2436] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2438] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 1
+[19:51:33.2440] Issuing DNLOAD request
+[19:51:33.2458] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2459] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 2
+[19:51:33.2460] Issuing DNLOAD request
+[19:51:33.2477] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2478] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 2
+[19:51:33.2479] Issuing DNLOAD request
+[19:51:33.2502] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2504] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 2
+[19:51:33.2506] Issuing DNLOAD request
+[19:51:33.2524] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2526] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 2
+[19:51:33.2527] Issuing DNLOAD request
+[19:51:33.2549] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2550] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 2
+[19:51:33.2552] Issuing DNLOAD request
+[19:51:33.2569] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2570] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 2
+[19:51:33.2572] Issuing DNLOAD request
+[19:51:33.2588] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2589] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 3
+[19:51:33.2591] Issuing DNLOAD request
+[19:51:33.2608] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2608] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 3
+[19:51:33.2610] Issuing DNLOAD request
+[19:51:33.2631] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2632] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 3
+[19:51:33.2633] Issuing DNLOAD request
+[19:51:33.2655] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2656] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 3
+[19:51:33.2657] Issuing DNLOAD request
+[19:51:33.2681] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2687] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 3
+[19:51:33.2687] Issuing DNLOAD request
+[19:51:33.2701] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2702] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 3
+[19:51:33.2703] Issuing DNLOAD request
+[19:51:33.2724] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2725] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 4
+[19:51:33.2727] Issuing DNLOAD request
+[19:51:33.2745] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2746] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 4
+[19:51:33.2747] Issuing DNLOAD request
+[19:51:33.2765] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2766] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 4
+[19:51:33.2768] Issuing DNLOAD request
+[19:51:33.2785] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2786] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 4
+[19:51:33.2787] Issuing DNLOAD request
+[19:51:33.2804] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2804] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 4
+[19:51:33.2805] Issuing DNLOAD request
+[19:51:33.2823] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2824] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 4
+[19:51:33.2824] Issuing DNLOAD request
+[19:51:33.2843] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2844] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 5
+[19:51:33.2846] Issuing DNLOAD request
+[19:51:33.2861] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2862] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 5
+[19:51:33.2863] Issuing DNLOAD request
+[19:51:33.2886] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2887] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 5
+[19:51:33.2888] Issuing DNLOAD request
+[19:51:33.2905] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2906] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 5
+[19:51:33.2908] Issuing DNLOAD request
+[19:51:33.2925] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2934] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 5
+[19:51:33.2934] Issuing DNLOAD request
+[19:51:33.2942] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2944] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 5
+[19:51:33.2945] Issuing DNLOAD request
+[19:51:33.2961] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2962] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 6
+[19:51:33.2965] Issuing DNLOAD request
+[19:51:33.2981] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.2982] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 6
+[19:51:33.2984] Issuing DNLOAD request
+[19:51:33.2999] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3000] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 6
+[19:51:33.3002] Issuing DNLOAD request
+[19:51:33.3019] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3021] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 6
+[19:51:33.3022] Issuing DNLOAD request
+[19:51:33.3038] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3039] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 6
+[19:51:33.3040] Issuing DNLOAD request
+[19:51:33.3056] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3058] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 6
+[19:51:33.3059] Issuing DNLOAD request
+[19:51:33.3075] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3078] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 7
+[19:51:33.3078] Issuing DNLOAD request
+[19:51:33.3093] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3095] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 7
+[19:51:33.3097] Issuing DNLOAD request
+[19:51:33.3115] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3117] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 7
+[19:51:33.3118] Issuing DNLOAD request
+[19:51:33.3135] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3136] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 7
+[19:51:33.3138] Issuing DNLOAD request
+[19:51:33.3153] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3154] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 7
+[19:51:33.3156] Issuing DNLOAD request
+[19:51:33.3171] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3172] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 7
+[19:51:33.3173] Issuing DNLOAD request
+[19:51:33.3189] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3190] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 8
+[19:51:33.3192] Issuing DNLOAD request
+[19:51:33.3207] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3208] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 8
+[19:51:33.3209] Issuing DNLOAD request
+[19:51:33.3227] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3229] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 8
+[19:51:33.3232] Issuing DNLOAD request
+[19:51:33.3250] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3251] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 8
+[19:51:33.3256] Issuing DNLOAD request
+[19:51:33.3271] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3272] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 8
+[19:51:33.3273] Issuing DNLOAD request
+[19:51:33.3296] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3297] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 8
+[19:51:33.3298] Issuing DNLOAD request
+[19:51:33.3320] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3321] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 9
+[19:51:33.3322] Issuing DNLOAD request
+[19:51:33.3344] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3345] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 9
+[19:51:33.3346] Issuing DNLOAD request
+[19:51:33.3366] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3367] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 9
+[19:51:33.3368] Issuing DNLOAD request
+[19:51:33.3392] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3393] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 9
+[19:51:33.3395] Issuing DNLOAD request
+[19:51:33.3412] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3413] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 9
+[19:51:33.3415] Issuing DNLOAD request
+[19:51:33.3431] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3433] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 9
+[19:51:33.3434] Issuing DNLOAD request
+[19:51:33.3454] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3458] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 10
+[19:51:33.3461] Issuing DNLOAD request
+[19:51:33.3480] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3481] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 10
+[19:51:33.3482] Issuing DNLOAD request
+[19:51:33.3496] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3497] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 10
+[19:51:33.3498] Issuing DNLOAD request
+[19:51:33.3520] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3521] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 10
+[19:51:33.3523] Issuing DNLOAD request
+[19:51:33.3548] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3549] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 10
+[19:51:33.3550] Issuing DNLOAD request
+[19:51:33.3569] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3570] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 10
+[19:51:33.3572] Issuing DNLOAD request
+[19:51:33.3593] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3594] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 11
+[19:51:33.3596] Issuing DNLOAD request
+[19:51:33.3618] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3619] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 11
+[19:51:33.3620] Issuing DNLOAD request
+[19:51:33.3644] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3645] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 11
+[19:51:33.3647] Issuing DNLOAD request
+[19:51:33.3669] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3670] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 11
+[19:51:33.3672] Issuing DNLOAD request
+[19:51:33.3696] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3697] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 11
+[19:51:33.3699] Issuing DNLOAD request
+[19:51:33.3723] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3724] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 11
+[19:51:33.3726] Issuing DNLOAD request
+[19:51:33.3749] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3750] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 12
+[19:51:33.3752] Issuing DNLOAD request
+[19:51:33.3774] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3775] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 12
+[19:51:33.3776] Issuing DNLOAD request
+[19:51:33.3800] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3801] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 12
+[19:51:33.3802] Issuing DNLOAD request
+[19:51:33.3826] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3827] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 12
+[19:51:33.3828] Issuing DNLOAD request
+[19:51:33.3852] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3853] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 12
+[19:51:33.3854] Issuing DNLOAD request
+[19:51:33.3878] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3879] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 12
+[19:51:33.3882] Issuing DNLOAD request
+[19:51:33.3905] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3905] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 13
+[19:51:33.3907] Issuing DNLOAD request
+[19:51:33.3932] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3934] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 13
+[19:51:33.3936] Issuing DNLOAD request
+[19:51:33.3960] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3961] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 13
+[19:51:33.3962] Issuing DNLOAD request
+[19:51:33.3987] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.3988] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 13
+[19:51:33.3989] Issuing DNLOAD request
+[19:51:33.4013] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4014] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 13
+[19:51:33.4016] Issuing DNLOAD request
+[19:51:33.4040] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4041] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 13
+[19:51:33.4042] Issuing DNLOAD request
+[19:51:33.4066] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4067] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 14
+[19:51:33.4068] Issuing DNLOAD request
+[19:51:33.4091] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4094] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 14
+[19:51:33.4096] Issuing DNLOAD request
+[19:51:33.4118] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4118] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 14
+[19:51:33.4120] Issuing DNLOAD request
+[19:51:33.4144] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4145] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 14
+[19:51:33.4147] Issuing DNLOAD request
+[19:51:33.4171] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4172] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 14
+[19:51:33.4174] Issuing DNLOAD request
+[19:51:33.4197] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4198] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 14
+[19:51:33.4200] Issuing DNLOAD request
+[19:51:33.4224] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4225] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 15
+[19:51:33.4227] Issuing DNLOAD request
+[19:51:33.4253] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4254] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 15
+[19:51:33.4255] Issuing DNLOAD request
+[19:51:33.4279] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4280] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 15
+[19:51:33.4282] Issuing DNLOAD request
+[19:51:33.4305] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4306] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 15
+[19:51:33.4308] Issuing DNLOAD request
+[19:51:33.4333] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4334] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 15
+[19:51:33.4335] Issuing DNLOAD request
+[19:51:33.4360] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4361] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 15
+[19:51:33.4363] Issuing DNLOAD request
+[19:51:33.4388] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4389] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 16
+[19:51:33.4390] Issuing DNLOAD request
+[19:51:33.4414] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4415] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 16
+[19:51:33.4417] Issuing DNLOAD request
+[19:51:33.4439] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4440] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 16
+[19:51:33.4442] Issuing DNLOAD request
+[19:51:33.4466] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4467] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 16
+[19:51:33.4468] Issuing DNLOAD request
+[19:51:33.4491] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4492] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 16
+[19:51:33.4493] Issuing DNLOAD request
+[19:51:33.4517] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4518] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 16
+[19:51:33.4521] Issuing DNLOAD request
+[19:51:33.4544] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4545] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 17
+[19:51:33.4546] Issuing DNLOAD request
+[19:51:33.4570] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4571] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 17
+[19:51:33.4573] Issuing DNLOAD request
+[19:51:33.4596] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4597] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 17
+[19:51:33.4598] Issuing DNLOAD request
+[19:51:33.4624] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4625] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 17
+[19:51:33.4627] Issuing DNLOAD request
+[19:51:33.4647] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4650] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 17
+[19:51:33.4650] Issuing DNLOAD request
+[19:51:33.4669] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4671] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 17
+[19:51:33.4671] Issuing DNLOAD request
+[19:51:33.4693] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4694] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 18
+[19:51:33.4696] Issuing DNLOAD request
+[19:51:33.4719] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4720] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 18
+[19:51:33.4722] Issuing DNLOAD request
+[19:51:33.4745] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4747] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 18
+[19:51:33.4748] Issuing DNLOAD request
+[19:51:33.4769] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4771] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 18
+[19:51:33.4773] Issuing DNLOAD request
+[19:51:33.4789] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4790] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 18
+[19:51:33.4792] Issuing DNLOAD request
+[19:51:33.4812] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4813] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 18
+[19:51:33.4814] Issuing DNLOAD request
+[19:51:33.4839] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4840] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 19
+[19:51:33.4841] Issuing DNLOAD request
+[19:51:33.4865] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4866] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 19
+[19:51:33.4868] Issuing DNLOAD request
+[19:51:33.4889] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4891] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 19
+[19:51:33.4893] Issuing DNLOAD request
+[19:51:33.4916] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4917] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 19
+[19:51:33.4918] Issuing DNLOAD request
+[19:51:33.4942] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4943] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 19
+[19:51:33.4944] Issuing DNLOAD request
+[19:51:33.4967] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4968] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 19
+[19:51:33.4970] Issuing DNLOAD request
+[19:51:33.4994] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.4995] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 20
+[19:51:33.4997] Issuing DNLOAD request
+[19:51:33.5021] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5022] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 20
+[19:51:33.5024] Issuing DNLOAD request
+[19:51:33.5048] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5051] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 20
+[19:51:33.5054] Issuing DNLOAD request
+[19:51:33.5076] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5077] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 20
+[19:51:33.5079] Issuing DNLOAD request
+[19:51:33.5102] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5103] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 20
+[19:51:33.5105] Issuing DNLOAD request
+[19:51:33.5129] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5131] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 20
+[19:51:33.5134] Issuing DNLOAD request
+[19:51:33.5157] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5158] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 21
+[19:51:33.5160] Issuing DNLOAD request
+[19:51:33.5180] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5181] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 21
+[19:51:33.5182] Issuing DNLOAD request
+[19:51:33.5205] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5207] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 21
+[19:51:33.5210] Issuing DNLOAD request
+[19:51:33.5234] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5235] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 21
+[19:51:33.5236] Issuing DNLOAD request
+[19:51:33.5260] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5261] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 21
+[19:51:33.5263] Issuing DNLOAD request
+[19:51:33.5288] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5290] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 21
+[19:51:33.5294] Issuing DNLOAD request
+[19:51:33.5316] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5318] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 22
+[19:51:33.5319] Issuing DNLOAD request
+[19:51:33.5341] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5342] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 22
+[19:51:33.5344] Issuing DNLOAD request
+[19:51:33.5368] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5371] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 22
+[19:51:33.5374] Issuing DNLOAD request
+[19:51:33.5398] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5399] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 22
+[19:51:33.5401] Issuing DNLOAD request
+[19:51:33.5424] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5425] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 22
+[19:51:33.5427] Issuing DNLOAD request
+[19:51:33.5450] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5453] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 22
+[19:51:33.5456] Issuing DNLOAD request
+[19:51:33.5475] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5476] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 23
+[19:51:33.5479] Issuing DNLOAD request
+[19:51:33.5500] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5501] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 23
+[19:51:33.5503] Issuing DNLOAD request
+[19:51:33.5526] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5529] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 23
+[19:51:33.5531] Issuing DNLOAD request
+[19:51:33.5550] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5551] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 23
+[19:51:33.5553] Issuing DNLOAD request
+[19:51:33.5574] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5574] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 23
+[19:51:33.5576] Issuing DNLOAD request
+[19:51:33.5601] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5602] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 23
+[19:51:33.5603] Issuing DNLOAD request
+[19:51:33.5620] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5624] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 24
+[19:51:33.5628] Issuing DNLOAD request
+[19:51:33.5651] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5652] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 24
+[19:51:33.5654] Issuing DNLOAD request
+[19:51:33.5676] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5677] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 24
+[19:51:33.5679] Issuing DNLOAD request
+[19:51:33.5699] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5701] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 24
+[19:51:33.5705] Issuing DNLOAD request
+[19:51:33.5726] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5727] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 24
+[19:51:33.5728] Issuing DNLOAD request
+[19:51:33.5753] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5754] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 24
+[19:51:33.5756] Issuing DNLOAD request
+[19:51:33.5777] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5780] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 25
+[19:51:33.5783] Issuing DNLOAD request
+[19:51:33.5803] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5804] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 25
+[19:51:33.5806] Issuing DNLOAD request
+[19:51:33.5830] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5831] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 25
+[19:51:33.5833] Issuing DNLOAD request
+[19:51:33.5858] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5864] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 25
+[19:51:33.5864] Issuing DNLOAD request
+[19:51:33.5883] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5884] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 25
+[19:51:33.5886] Issuing DNLOAD request
+[19:51:33.5910] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5911] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 25
+[19:51:33.5913] Issuing DNLOAD request
+[19:51:33.5936] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5939] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 26
+[19:51:33.5942] Issuing DNLOAD request
+[19:51:33.5962] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5962] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 26
+[19:51:33.5964] Issuing DNLOAD request
+[19:51:33.5987] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.5988] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 26
+[19:51:33.5990] Issuing DNLOAD request
+[19:51:33.6015] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6017] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 26
+[19:51:33.6021] Issuing DNLOAD request
+[19:51:33.6039] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6039] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 26
+[19:51:33.6041] Issuing DNLOAD request
+[19:51:33.6061] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6062] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 26
+[19:51:33.6064] Issuing DNLOAD request
+[19:51:33.6088] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6089] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 27
+[19:51:33.6090] Issuing DNLOAD request
+[19:51:33.6109] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6113] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 27
+[19:51:33.6115] Issuing DNLOAD request
+[19:51:33.6137] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6138] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 27
+[19:51:33.6139] Issuing DNLOAD request
+[19:51:33.6162] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6163] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 27
+[19:51:33.6166] Issuing DNLOAD request
+[19:51:33.6182] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6184] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 27
+[19:51:33.6189] Issuing DNLOAD request
+[19:51:33.6206] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6206] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 27
+[19:51:33.6208] Issuing DNLOAD request
+[19:51:33.6232] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6233] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 28
+[19:51:33.6235] Issuing DNLOAD request
+[19:51:33.6261] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6264] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 28
+[19:51:33.6271] Issuing DNLOAD request
+[19:51:33.6291] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6292] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 28
+[19:51:33.6294] Issuing DNLOAD request
+[19:51:33.6318] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6319] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 28
+[19:51:33.6322] Issuing DNLOAD request
+[19:51:33.6339] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6347] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 28
+[19:51:33.6348] Issuing DNLOAD request
+[19:51:33.6366] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6368] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 28
+[19:51:33.6369] Issuing DNLOAD request
+[19:51:33.6392] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6393] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 29
+[19:51:33.6395] Issuing DNLOAD request
+[19:51:33.6420] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6423] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 29
+[19:51:33.6427] Issuing DNLOAD request
+[19:51:33.6449] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6450] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 29
+[19:51:33.6452] Issuing DNLOAD request
+[19:51:33.6471] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6472] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 29
+[19:51:33.6473] Issuing DNLOAD request
+[19:51:33.6490] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6490] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 29
+[19:51:33.6491] Issuing DNLOAD request
+[19:51:33.6507] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6509] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 29
+[19:51:33.6513] Issuing DNLOAD request
+[19:51:33.6533] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6534] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 30
+[19:51:33.6536] Issuing DNLOAD request
+[19:51:33.6560] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6561] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 30
+[19:51:33.6562] Issuing DNLOAD request
+[19:51:33.6584] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6587] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 30
+[19:51:33.6591] Issuing DNLOAD request
+[19:51:33.6614] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6615] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 30
+[19:51:33.6617] Issuing DNLOAD request
+[19:51:33.6640] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6641] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 30
+[19:51:33.6645] Issuing DNLOAD request
+[19:51:33.6663] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6665] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 30
+[19:51:33.6669] Issuing DNLOAD request
+[19:51:33.6684] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6687] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 31
+[19:51:33.6689] Issuing DNLOAD request
+[19:51:33.6710] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6711] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 31
+[19:51:33.6713] Issuing DNLOAD request
+[19:51:33.6738] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6741] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 31
+[19:51:33.6745] Issuing DNLOAD request
+[19:51:33.6764] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6765] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 31
+[19:51:33.6766] Issuing DNLOAD request
+[19:51:33.6790] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6790] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 31
+[19:51:33.6792] Issuing DNLOAD request
+[19:51:33.6815] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6818] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 31
+[19:51:33.6820] Issuing DNLOAD request
+[19:51:33.6839] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6840] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 32
+[19:51:33.6841] Issuing DNLOAD request
+[19:51:33.6864] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6865] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 32
+[19:51:33.6866] Issuing DNLOAD request
+[19:51:33.6887] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6888] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 32
+[19:51:33.6889] Issuing DNLOAD request
+[19:51:33.6909] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6911] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 32
+[19:51:33.6914] Issuing DNLOAD request
+[19:51:33.6933] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6935] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 32
+[19:51:33.6936] Issuing DNLOAD request
+[19:51:33.6960] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6961] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 32
+[19:51:33.6962] Issuing DNLOAD request
+[19:51:33.6986] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.6990] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 33
+[19:51:33.6995] Issuing DNLOAD request
+[19:51:33.7015] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7015] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 33
+[19:51:33.7017] Issuing DNLOAD request
+[19:51:33.7039] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7040] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 33
+[19:51:33.7042] Issuing DNLOAD request
+[19:51:33.7064] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7067] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 33
+[19:51:33.7070] Issuing DNLOAD request
+[19:51:33.7087] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7088] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 33
+[19:51:33.7089] Issuing DNLOAD request
+[19:51:33.7113] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7114] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 33
+[19:51:33.7115] Issuing DNLOAD request
+[19:51:33.7141] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7143] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 34
+[19:51:33.7146] Issuing DNLOAD request
+[19:51:33.7172] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7173] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 34
+[19:51:33.7174] Issuing DNLOAD request
+[19:51:33.7196] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7197] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 34
+[19:51:33.7198] Issuing DNLOAD request
+[19:51:33.7222] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7226] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 34
+[19:51:33.7228] Issuing DNLOAD request
+[19:51:33.7252] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7252] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 34
+[19:51:33.7254] Issuing DNLOAD request
+[19:51:33.7278] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7279] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 34
+[19:51:33.7281] Issuing DNLOAD request
+[19:51:33.7303] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7305] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 35
+[19:51:33.7308] Issuing DNLOAD request
+[19:51:33.7331] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7332] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 35
+[19:51:33.7334] Issuing DNLOAD request
+[19:51:33.7358] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7359] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 35
+[19:51:33.7361] Issuing DNLOAD request
+[19:51:33.7383] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7384] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 35
+[19:51:33.7386] Issuing DNLOAD request
+[19:51:33.7409] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7410] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 35
+[19:51:33.7412] Issuing DNLOAD request
+[19:51:33.7438] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7439] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 35
+[19:51:33.7440] Issuing DNLOAD request
+[19:51:33.7464] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7465] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 36
+[19:51:33.7467] Issuing DNLOAD request
+[19:51:33.7489] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7490] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 36
+[19:51:33.7492] Issuing DNLOAD request
+[19:51:33.7516] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7517] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 36
+[19:51:33.7518] Issuing DNLOAD request
+[19:51:33.7542] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7543] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 36
+[19:51:33.7544] Issuing DNLOAD request
+[19:51:33.7565] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7566] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 36
+[19:51:33.7568] Issuing DNLOAD request
+[19:51:33.7591] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7593] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 36
+[19:51:33.7594] Issuing DNLOAD request
+[19:51:33.7617] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7618] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 37
+[19:51:33.7619] Issuing DNLOAD request
+[19:51:33.7643] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7645] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 37
+[19:51:33.7647] Issuing DNLOAD request
+[19:51:33.7665] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7666] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 37
+[19:51:33.7668] Issuing DNLOAD request
+[19:51:33.7682] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7683] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 37
+[19:51:33.7687] Issuing DNLOAD request
+[19:51:33.7700] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7701] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 37
+[19:51:33.7703] Issuing DNLOAD request
+[19:51:33.7717] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7718] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 37
+[19:51:33.7720] Issuing DNLOAD request
+[19:51:33.7735] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7737] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 38
+[19:51:33.7738] Issuing DNLOAD request
+[19:51:33.7755] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7756] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 38
+[19:51:33.7759] Issuing DNLOAD request
+[19:51:33.7779] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7781] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 38
+[19:51:33.7786] Issuing DNLOAD request
+[19:51:33.7803] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7805] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 38
+[19:51:33.7808] Issuing DNLOAD request
+[19:51:33.7825] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7825] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 38
+[19:51:33.7828] Issuing DNLOAD request
+[19:51:33.7842] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7844] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 38
+[19:51:33.7845] Issuing DNLOAD request
+[19:51:33.7861] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7863] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 39
+[19:51:33.7864] Issuing DNLOAD request
+[19:51:33.7881] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7882] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 39
+[19:51:33.7883] Issuing DNLOAD request
+[19:51:33.7899] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7901] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 39
+[19:51:33.7905] Issuing DNLOAD request
+[19:51:33.7920] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7921] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 39
+[19:51:33.7923] Issuing DNLOAD request
+[19:51:33.7938] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7940] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 39
+[19:51:33.7941] Issuing DNLOAD request
+[19:51:33.7956] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7962] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 39
+[19:51:33.7965] Issuing DNLOAD request
+[19:51:33.7983] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.7984] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 40
+[19:51:33.7984] Issuing DNLOAD request
+[19:51:33.8006] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8008] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 40
+[19:51:33.8013] Issuing DNLOAD request
+[19:51:33.8032] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8035] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 40
+[19:51:33.8036] Issuing DNLOAD request
+[19:51:33.8047] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8058] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 40
+[19:51:33.8058] Issuing DNLOAD request
+[19:51:33.8073] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8074] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 40
+[19:51:33.8078] Issuing DNLOAD request
+[19:51:33.8093] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8094] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 40
+[19:51:33.8095] Issuing DNLOAD request
+[19:51:33.8112] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8113] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 41
+[19:51:33.8114] Issuing DNLOAD request
+[19:51:33.8131] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8132] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 41
+[19:51:33.8133] Issuing DNLOAD request
+[19:51:33.8150] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8150] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 41
+[19:51:33.8152] Issuing DNLOAD request
+[19:51:33.8168] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8176] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 41
+[19:51:33.8176] Issuing DNLOAD request
+[19:51:33.8200] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8200] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 41
+[19:51:33.8200] Issuing DNLOAD request
+[19:51:33.8215] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8217] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 41
+[19:51:33.8218] Issuing DNLOAD request
+[19:51:33.8235] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8237] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 42
+[19:51:33.8240] Issuing DNLOAD request
+[19:51:33.8256] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8258] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 42
+[19:51:33.8259] Issuing DNLOAD request
+[19:51:33.8275] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8276] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 42
+[19:51:33.8276] Issuing DNLOAD request
+[19:51:33.8293] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8294] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 42
+[19:51:33.8296] Issuing DNLOAD request
+[19:51:33.8312] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8312] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 42
+[19:51:33.8314] Issuing DNLOAD request
+[19:51:33.8330] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8331] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 42
+[19:51:33.8332] Issuing DNLOAD request
+[19:51:33.8348] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8349] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 43
+[19:51:33.8351] Issuing DNLOAD request
+[19:51:33.8367] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8368] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 43
+[19:51:33.8369] Issuing DNLOAD request
+[19:51:33.8385] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8386] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 43
+[19:51:33.8389] Issuing DNLOAD request
+[19:51:33.8405] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8406] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 43
+[19:51:33.8407] Issuing DNLOAD request
+[19:51:33.8423] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8424] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 43
+[19:51:33.8426] Issuing DNLOAD request
+[19:51:33.8444] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8444] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 43
+[19:51:33.8445] Issuing DNLOAD request
+[19:51:33.8462] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8462] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 44
+[19:51:33.8463] Issuing DNLOAD request
+[19:51:33.8485] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8486] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 44
+[19:51:33.8487] Issuing DNLOAD request
+[19:51:33.8510] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8511] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 44
+[19:51:33.8512] Issuing DNLOAD request
+[19:51:33.8537] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8538] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 44
+[19:51:33.8539] Issuing DNLOAD request
+[19:51:33.8562] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8563] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 44
+[19:51:33.8566] Issuing DNLOAD request
+[19:51:33.8590] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8590] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 44
+[19:51:33.8592] Issuing DNLOAD request
+[19:51:33.8615] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8616] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 45
+[19:51:33.8618] Issuing DNLOAD request
+[19:51:33.8642] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8643] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 45
+[19:51:33.8644] Issuing DNLOAD request
+[19:51:33.8669] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8670] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 45
+[19:51:33.8672] Issuing DNLOAD request
+[19:51:33.8694] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8695] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 45
+[19:51:33.8696] Issuing DNLOAD request
+[19:51:33.8721] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8722] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 45
+[19:51:33.8724] Issuing DNLOAD request
+[19:51:33.8744] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8745] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 45
+[19:51:33.8746] Issuing DNLOAD request
+[19:51:33.8764] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8765] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 46
+[19:51:33.8766] Issuing DNLOAD request
+[19:51:33.8786] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8787] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 46
+[19:51:33.8788] Issuing DNLOAD request
+[19:51:33.8811] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8812] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 46
+[19:51:33.8814] Issuing DNLOAD request
+[19:51:33.8841] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8843] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 46
+[19:51:33.8846] Issuing DNLOAD request
+[19:51:33.8869] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8870] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 46
+[19:51:33.8871] Issuing DNLOAD request
+[19:51:33.8896] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8897] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 46
+[19:51:33.8898] Issuing DNLOAD request
+[19:51:33.8922] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8924] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 47
+[19:51:33.8926] Issuing DNLOAD request
+[19:51:33.8949] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8950] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 47
+[19:51:33.8952] Issuing DNLOAD request
+[19:51:33.8976] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.8977] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 47
+[19:51:33.8978] Issuing DNLOAD request
+[19:51:33.9004] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9007] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 47
+[19:51:33.9010] Issuing DNLOAD request
+[19:51:33.9033] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9034] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 47
+[19:51:33.9036] Issuing DNLOAD request
+[19:51:33.9060] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9062] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 47
+[19:51:33.9064] Issuing DNLOAD request
+[19:51:33.9082] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9085] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 48
+[19:51:33.9086] Issuing DNLOAD request
+[19:51:33.9102] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9102] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 48
+[19:51:33.9103] Issuing DNLOAD request
+[19:51:33.9127] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9128] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 48
+[19:51:33.9130] Issuing DNLOAD request
+[19:51:33.9153] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9154] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 48
+[19:51:33.9156] Issuing DNLOAD request
+[19:51:33.9178] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9179] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 48
+[19:51:33.9181] Issuing DNLOAD request
+[19:51:33.9204] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9205] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 48
+[19:51:33.9207] Issuing DNLOAD request
+[19:51:33.9231] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9232] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 49
+[19:51:33.9234] Issuing DNLOAD request
+[19:51:33.9252] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9253] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 49
+[19:51:33.9255] Issuing DNLOAD request
+[19:51:33.9274] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9275] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 49
+[19:51:33.9277] Issuing DNLOAD request
+[19:51:33.9302] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9303] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 49
+[19:51:33.9305] Issuing DNLOAD request
+[19:51:33.9328] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9329] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 49
+[19:51:33.9330] Issuing DNLOAD request
+[19:51:33.9355] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9355] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 49
+[19:51:33.9357] Issuing DNLOAD request
+[19:51:33.9381] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9382] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 50
+[19:51:33.9385] Issuing DNLOAD request
+[19:51:33.9408] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9408] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 50
+[19:51:33.9410] Issuing DNLOAD request
+[19:51:33.9435] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9437] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 50
+[19:51:33.9439] Issuing DNLOAD request
+[19:51:33.9461] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9462] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 50
+[19:51:33.9464] Issuing DNLOAD request
+[19:51:33.9487] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9488] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 50
+[19:51:33.9490] Issuing DNLOAD request
+[19:51:33.9514] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9515] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 50
+[19:51:33.9517] Issuing DNLOAD request
+[19:51:33.9541] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9542] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 51
+[19:51:33.9543] Issuing DNLOAD request
+[19:51:33.9567] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9569] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 51
+[19:51:33.9571] Issuing DNLOAD request
+[19:51:33.9591] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9592] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 51
+[19:51:33.9594] Issuing DNLOAD request
+[19:51:33.9612] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9613] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 51
+[19:51:33.9614] Issuing DNLOAD request
+[19:51:33.9637] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9638] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 51
+[19:51:33.9642] Issuing DNLOAD request
+[19:51:33.9660] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9664] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 51
+[19:51:33.9665] Issuing DNLOAD request
+[19:51:33.9687] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9688] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 52
+[19:51:33.9689] Issuing DNLOAD request
+[19:51:33.9722] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9722] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 52
+[19:51:33.9722] Issuing DNLOAD request
+[19:51:33.9737] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9741] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 52
+[19:51:33.9745] Issuing DNLOAD request
+[19:51:33.9760] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9761] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 52
+[19:51:33.9765] Issuing DNLOAD request
+[19:51:33.9785] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9786] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 52
+[19:51:33.9788] Issuing DNLOAD request
+[19:51:33.9810] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9812] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 52
+[19:51:33.9815] Issuing DNLOAD request
+[19:51:33.9833] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9833] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 53
+[19:51:33.9834] Issuing DNLOAD request
+[19:51:33.9854] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9855] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 53
+[19:51:33.9856] Issuing DNLOAD request
+[19:51:33.9880] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9881] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 53
+[19:51:33.9883] Issuing DNLOAD request
+[19:51:33.9901] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9911] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 53
+[19:51:33.9911] Issuing DNLOAD request
+[19:51:33.9927] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9929] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 53
+[19:51:33.9930] Issuing DNLOAD request
+[19:51:33.9947] Issued GETSTATUS request: state = 5 status = 0
+[19:51:33.9950] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 53
+[19:51:33.9951] Issuing DNLOAD request
+[19:51:34.0013] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0013] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 54
+[19:51:34.0013] Issuing DNLOAD request
+[19:51:34.0029] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0039] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 54
+[19:51:34.0049] Issuing DNLOAD request
+[19:51:34.0080] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0080] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 54
+[19:51:34.0081] Issuing DNLOAD request
+[19:51:34.0098] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0098] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 54
+[19:51:34.0101] Issuing DNLOAD request
+[19:51:34.0119] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0120] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 54
+[19:51:34.0122] Issuing DNLOAD request
+[19:51:34.0138] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0152] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 54
+[19:51:34.0152] Issuing DNLOAD request
+[19:51:34.0171] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0172] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 55
+[19:51:34.0173] Issuing DNLOAD request
+[19:51:34.0190] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0191] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 55
+[19:51:34.0191] Issuing DNLOAD request
+[19:51:34.0208] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0212] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 55
+[19:51:34.0213] Issuing DNLOAD request
+[19:51:34.0229] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0231] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 55
+[19:51:34.0232] Issuing DNLOAD request
+[19:51:34.0250] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0251] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 55
+[19:51:34.0251] Issuing DNLOAD request
+[19:51:34.0267] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0268] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 55
+[19:51:34.0271] Issuing DNLOAD request
+[19:51:34.0298] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0298] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 56
+[19:51:34.0298] Issuing DNLOAD request
+[19:51:34.0313] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0314] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 56
+[19:51:34.0332] Issuing DNLOAD request
+[19:51:34.0336] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0337] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 56
+[19:51:34.0338] Issuing DNLOAD request
+[19:51:34.0355] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0356] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 56
+[19:51:34.0357] Issuing DNLOAD request
+[19:51:34.0375] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0377] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 56
+[19:51:34.0379] Issuing DNLOAD request
+[19:51:34.0395] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0396] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 56
+[19:51:34.0397] Issuing DNLOAD request
+[19:51:34.0417] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0418] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 57
+[19:51:34.0420] Issuing DNLOAD request
+[19:51:34.0437] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0438] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 57
+[19:51:34.0442] Issuing DNLOAD request
+[19:51:34.0456] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0461] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 57
+[19:51:34.0473] Issuing DNLOAD request
+[19:51:34.0486] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0487] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 57
+[19:51:34.0489] Issuing DNLOAD request
+[19:51:34.0508] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0508] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 57
+[19:51:34.0510] Issuing DNLOAD request
+[19:51:34.0535] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0538] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 57
+[19:51:34.0540] Issuing DNLOAD request
+[19:51:34.0558] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0558] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 58
+[19:51:34.0559] Issuing DNLOAD request
+[19:51:34.0583] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0584] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 58
+[19:51:34.0585] Issuing DNLOAD request
+[19:51:34.0606] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0608] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 58
+[19:51:34.0616] Issuing DNLOAD request
+[19:51:34.0633] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0635] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 58
+[19:51:34.0638] Issuing DNLOAD request
+[19:51:34.0654] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0655] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 58
+[19:51:34.0659] Issuing DNLOAD request
+[19:51:34.0674] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0675] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 58
+[19:51:34.0676] Issuing DNLOAD request
+[19:51:34.0692] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0694] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 59
+[19:51:34.0695] Issuing DNLOAD request
+[19:51:34.0722] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0724] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 59
+[19:51:34.0725] Issuing DNLOAD request
+[19:51:34.0744] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0745] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 59
+[19:51:34.0747] Issuing DNLOAD request
+[19:51:34.0767] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0768] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 59
+[19:51:34.0769] Issuing DNLOAD request
+[19:51:34.0786] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0786] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 59
+[19:51:34.0789] Issuing DNLOAD request
+[19:51:34.0805] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0806] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 59
+[19:51:34.0808] Issuing DNLOAD request
+[19:51:34.0824] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0827] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 60
+[19:51:34.0828] Issuing DNLOAD request
+[19:51:34.0850] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0852] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 60
+[19:51:34.0856] Issuing DNLOAD request
+[19:51:34.0872] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0874] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 60
+[19:51:34.0876] Issuing DNLOAD request
+[19:51:34.0899] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0899] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 60
+[19:51:34.0901] Issuing DNLOAD request
+[19:51:34.0926] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0927] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 60
+[19:51:34.0931] Issuing DNLOAD request
+[19:51:34.0947] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0949] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 60
+[19:51:34.0950] Issuing DNLOAD request
+[19:51:34.0967] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0969] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 61
+[19:51:34.0970] Issuing DNLOAD request
+[19:51:34.0994] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.0994] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 61
+[19:51:34.0996] Issuing DNLOAD request
+[19:51:34.1019] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1020] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 61
+[19:51:34.1023] Issuing DNLOAD request
+[19:51:34.1040] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1041] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 61
+[19:51:34.1042] Issuing DNLOAD request
+[19:51:34.1063] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1064] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 61
+[19:51:34.1066] Issuing DNLOAD request
+[19:51:34.1090] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1091] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 61
+[19:51:34.1093] Issuing DNLOAD request
+[19:51:34.1112] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1114] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 62
+[19:51:34.1116] Issuing DNLOAD request
+[19:51:34.1132] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1133] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 62
+[19:51:34.1134] Issuing DNLOAD request
+[19:51:34.1156] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1157] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 62
+[19:51:34.1158] Issuing DNLOAD request
+[19:51:34.1181] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1183] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 62
+[19:51:34.1186] Issuing DNLOAD request
+[19:51:34.1203] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1204] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 62
+[19:51:34.1205] Issuing DNLOAD request
+[19:51:34.1228] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1229] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 62
+[19:51:34.1230] Issuing DNLOAD request
+[19:51:34.1254] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1255] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 63
+[19:51:34.1259] Issuing DNLOAD request
+[19:51:34.1277] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1279] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 63
+[19:51:34.1280] Issuing DNLOAD request
+[19:51:34.1297] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1298] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 63
+[19:51:34.1300] Issuing DNLOAD request
+[19:51:34.1321] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1322] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 63
+[19:51:34.1323] Issuing DNLOAD request
+[19:51:34.1345] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1346] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 63
+[19:51:34.1349] Issuing DNLOAD request
+[19:51:34.1365] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1366] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 63
+[19:51:34.1367] Issuing DNLOAD request
+[19:51:34.1389] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1390] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 64
+[19:51:34.1392] Issuing DNLOAD request
+[19:51:34.1417] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1419] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 64
+[19:51:34.1424] Issuing DNLOAD request
+[19:51:34.1441] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1444] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 64
+[19:51:34.1460] Issuing DNLOAD request
+[19:51:34.1466] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1468] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 64
+[19:51:34.1472] Issuing DNLOAD request
+[19:51:34.1487] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1488] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 64
+[19:51:34.1489] Issuing DNLOAD request
+[19:51:34.1509] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1512] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 64
+[19:51:34.1515] Issuing DNLOAD request
+[19:51:34.1536] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1537] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 65
+[19:51:34.1539] Issuing DNLOAD request
+[19:51:34.1561] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1562] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 65
+[19:51:34.1563] Issuing DNLOAD request
+[19:51:34.1585] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1588] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 65
+[19:51:34.1590] Issuing DNLOAD request
+[19:51:34.1609] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1611] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 65
+[19:51:34.1612] Issuing DNLOAD request
+[19:51:34.1628] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1629] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 65
+[19:51:34.1631] Issuing DNLOAD request
+[19:51:34.1647] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1648] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 65
+[19:51:34.1650] Issuing DNLOAD request
+[19:51:34.1671] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1674] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 66
+[19:51:34.1675] Issuing DNLOAD request
+[19:51:34.1691] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1692] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 66
+[19:51:34.1693] Issuing DNLOAD request
+[19:51:34.1717] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1718] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 66
+[19:51:34.1719] Issuing DNLOAD request
+[19:51:34.1743] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1746] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 66
+[19:51:34.1749] Issuing DNLOAD request
+[19:51:34.1768] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1770] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 66
+[19:51:34.1771] Issuing DNLOAD request
+[19:51:34.1788] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1789] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 66
+[19:51:34.1791] Issuing DNLOAD request
+[19:51:34.1814] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1815] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 67
+[19:51:34.1817] Issuing DNLOAD request
+[19:51:34.1834] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1836] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 67
+[19:51:34.1842] Issuing DNLOAD request
+[19:51:34.1866] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1867] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 67
+[19:51:34.1868] Issuing DNLOAD request
+[19:51:34.1890] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1891] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 67
+[19:51:34.1893] Issuing DNLOAD request
+[19:51:34.1912] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1914] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 67
+[19:51:34.1915] Issuing DNLOAD request
+[19:51:34.1933] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1935] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 67
+[19:51:34.1939] Issuing DNLOAD request
+[19:51:34.1955] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1956] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 68
+[19:51:34.1957] Issuing DNLOAD request
+[19:51:34.1980] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.1981] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 68
+[19:51:34.1985] Issuing DNLOAD request
+[19:51:34.2002] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2004] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 68
+[19:51:34.2006] Issuing DNLOAD request
+[19:51:34.2026] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2027] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 68
+[19:51:34.2029] Issuing DNLOAD request
+[19:51:34.2052] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2053] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 68
+[19:51:34.2055] Issuing DNLOAD request
+[19:51:34.2074] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2076] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 68
+[19:51:34.2078] Issuing DNLOAD request
+[19:51:34.2097] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2097] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 69
+[19:51:34.2099] Issuing DNLOAD request
+[19:51:34.2118] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2118] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 69
+[19:51:34.2120] Issuing DNLOAD request
+[19:51:34.2144] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2146] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 69
+[19:51:34.2151] Issuing DNLOAD request
+[19:51:34.2170] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2171] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 69
+[19:51:34.2172] Issuing DNLOAD request
+[19:51:34.2191] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2191] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 69
+[19:51:34.2193] Issuing DNLOAD request
+[19:51:34.2218] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2219] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 69
+[19:51:34.2221] Issuing DNLOAD request
+[19:51:34.2240] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2242] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 70
+[19:51:34.2245] Issuing DNLOAD request
+[19:51:34.2269] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2271] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 70
+[19:51:34.2273] Issuing DNLOAD request
+[19:51:34.2291] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2294] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 70
+[19:51:34.2296] Issuing DNLOAD request
+[19:51:34.2314] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2317] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 70
+[19:51:34.2319] Issuing DNLOAD request
+[19:51:34.2335] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2336] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 70
+[19:51:34.2337] Issuing DNLOAD request
+[19:51:34.2357] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2358] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 70
+[19:51:34.2359] Issuing DNLOAD request
+[19:51:34.2384] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2386] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 71
+[19:51:34.2389] Issuing DNLOAD request
+[19:51:34.2406] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2408] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 71
+[19:51:34.2409] Issuing DNLOAD request
+[19:51:34.2431] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2432] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 71
+[19:51:34.2434] Issuing DNLOAD request
+[19:51:34.2451] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2453] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 71
+[19:51:34.2454] Issuing DNLOAD request
+[19:51:34.2470] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2472] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 71
+[19:51:34.2474] Issuing DNLOAD request
+[19:51:34.2491] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2492] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 71
+[19:51:34.2493] Issuing DNLOAD request
+[19:51:34.2514] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2515] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 72
+[19:51:34.2517] Issuing DNLOAD request
+[19:51:34.2542] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2543] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 72
+[19:51:34.2544] Issuing DNLOAD request
+[19:51:34.2563] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2568] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 72
+[19:51:34.2568] Issuing DNLOAD request
+[19:51:34.2592] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2593] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 72
+[19:51:34.2595] Issuing DNLOAD request
+[19:51:34.2613] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2615] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 72
+[19:51:34.2616] Issuing DNLOAD request
+[19:51:34.2636] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2637] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 72
+[19:51:34.2639] Issuing DNLOAD request
+[19:51:34.2655] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2656] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 73
+[19:51:34.2657] Issuing DNLOAD request
+[19:51:34.2678] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2679] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 73
+[19:51:34.2681] Issuing DNLOAD request
+[19:51:34.2706] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2708] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 73
+[19:51:34.2712] Issuing DNLOAD request
+[19:51:34.2729] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2733] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 73
+[19:51:34.2734] Issuing DNLOAD request
+[19:51:34.2755] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2756] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 73
+[19:51:34.2758] Issuing DNLOAD request
+[19:51:34.2784] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2786] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 73
+[19:51:34.2791] Issuing DNLOAD request
+[19:51:34.2808] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2811] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 74
+[19:51:34.2813] Issuing DNLOAD request
+[19:51:34.2835] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2836] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 74
+[19:51:34.2838] Issuing DNLOAD request
+[19:51:34.2862] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2863] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 74
+[19:51:34.2865] Issuing DNLOAD request
+[19:51:34.2882] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2882] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 74
+[19:51:34.2892] Issuing DNLOAD request
+[19:51:34.2911] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2912] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 74
+[19:51:34.2914] Issuing DNLOAD request
+[19:51:34.2937] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2938] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 74
+[19:51:34.2940] Issuing DNLOAD request
+[19:51:34.2960] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2962] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 75
+[19:51:34.2965] Issuing DNLOAD request
+[19:51:34.2982] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.2983] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 75
+[19:51:34.2984] Issuing DNLOAD request
+[19:51:34.3007] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3008] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 75
+[19:51:34.3010] Issuing DNLOAD request
+[19:51:34.3035] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3039] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 75
+[19:51:34.3041] Issuing DNLOAD request
+[19:51:34.3059] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3059] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 75
+[19:51:34.3061] Issuing DNLOAD request
+[19:51:34.3083] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3084] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 75
+[19:51:34.3085] Issuing DNLOAD request
+[19:51:34.3110] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3110] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 76
+[19:51:34.3114] Issuing DNLOAD request
+[19:51:34.3135] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3137] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 76
+[19:51:34.3140] Issuing DNLOAD request
+[19:51:34.3156] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3157] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 76
+[19:51:34.3160] Issuing DNLOAD request
+[19:51:34.3176] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3178] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 76
+[19:51:34.3179] Issuing DNLOAD request
+[19:51:34.3197] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3199] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 76
+[19:51:34.3200] Issuing DNLOAD request
+[19:51:34.3217] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3218] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 76
+[19:51:34.3219] Issuing DNLOAD request
+[19:51:34.3235] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3236] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 77
+[19:51:34.3239] Issuing DNLOAD request
+[19:51:34.3255] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3256] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 77
+[19:51:34.3259] Issuing DNLOAD request
+[19:51:34.3277] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3281] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 77
+[19:51:34.3281] Issuing DNLOAD request
+[19:51:34.3297] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3300] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 77
+[19:51:34.3301] Issuing DNLOAD request
+[19:51:34.3318] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3319] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 77
+[19:51:34.3320] Issuing DNLOAD request
+[19:51:34.3337] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3337] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 77
+[19:51:34.3339] Issuing DNLOAD request
+[19:51:34.3362] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3362] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 78
+[19:51:34.3362] Issuing DNLOAD request
+[19:51:34.3377] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3377] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 78
+[19:51:34.3379] Issuing DNLOAD request
+[19:51:34.3394] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3395] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 78
+[19:51:34.3397] Issuing DNLOAD request
+[19:51:34.3412] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3413] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 78
+[19:51:34.3414] Issuing DNLOAD request
+[19:51:34.3430] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3431] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 78
+[19:51:34.3433] Issuing DNLOAD request
+[19:51:34.3451] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3452] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 78
+[19:51:34.3453] Issuing DNLOAD request
+[19:51:34.3470] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3471] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 79
+[19:51:34.3473] Issuing DNLOAD request
+[19:51:34.3489] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3492] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 79
+[19:51:34.3495] Issuing DNLOAD request
+[19:51:34.3513] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3514] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 79
+[19:51:34.3517] Issuing DNLOAD request
+[19:51:34.3535] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3536] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 79
+[19:51:34.3538] Issuing DNLOAD request
+[19:51:34.3557] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3559] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 79
+[19:51:34.3561] Issuing DNLOAD request
+[19:51:34.3586] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3587] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 79
+[19:51:34.3588] Issuing DNLOAD request
+[19:51:34.3607] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3608] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 80
+[19:51:34.3610] Issuing DNLOAD request
+[19:51:34.3627] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3628] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 80
+[19:51:34.3629] Issuing DNLOAD request
+[19:51:34.3645] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3646] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 80
+[19:51:34.3649] Issuing DNLOAD request
+[19:51:34.3667] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3668] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 80
+[19:51:34.3669] Issuing DNLOAD request
+[19:51:34.3687] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3688] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 80
+[19:51:34.3690] Issuing DNLOAD request
+[19:51:34.3712] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3712] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 80
+[19:51:34.3714] Issuing DNLOAD request
+[19:51:34.3739] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3740] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 81
+[19:51:34.3741] Issuing DNLOAD request
+[19:51:34.3765] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3767] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 81
+[19:51:34.3771] Issuing DNLOAD request
+[19:51:34.3791] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3792] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 81
+[19:51:34.3794] Issuing DNLOAD request
+[19:51:34.3818] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3820] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 81
+[19:51:34.3822] Issuing DNLOAD request
+[19:51:34.3845] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3847] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 81
+[19:51:34.3850] Issuing DNLOAD request
+[19:51:34.3867] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3867] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 81
+[19:51:34.3868] Issuing DNLOAD request
+[19:51:34.3889] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3890] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 82
+[19:51:34.3892] Issuing DNLOAD request
+[19:51:34.3917] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3918] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 82
+[19:51:34.3922] Issuing DNLOAD request
+[19:51:34.3939] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3941] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 82
+[19:51:34.3943] Issuing DNLOAD request
+[19:51:34.3965] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3966] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 82
+[19:51:34.3968] Issuing DNLOAD request
+[19:51:34.3992] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.3993] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 82
+[19:51:34.3994] Issuing DNLOAD request
+[19:51:34.4012] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4013] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 82
+[19:51:34.4014] Issuing DNLOAD request
+[19:51:34.4038] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4039] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 83
+[19:51:34.4041] Issuing DNLOAD request
+[19:51:34.4062] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4063] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 83
+[19:51:34.4065] Issuing DNLOAD request
+[19:51:34.4088] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4088] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 83
+[19:51:34.4090] Issuing DNLOAD request
+[19:51:34.4113] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4115] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 83
+[19:51:34.4116] Issuing DNLOAD request
+[19:51:34.4136] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4143] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 83
+[19:51:34.4143] Issuing DNLOAD request
+[19:51:34.4167] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4168] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 83
+[19:51:34.4170] Issuing DNLOAD request
+[19:51:34.4189] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4189] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 84
+[19:51:34.4191] Issuing DNLOAD request
+[19:51:34.4217] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4220] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 84
+[19:51:34.4221] Issuing DNLOAD request
+[19:51:34.4241] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4242] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 84
+[19:51:34.4244] Issuing DNLOAD request
+[19:51:34.4261] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4262] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 84
+[19:51:34.4263] Issuing DNLOAD request
+[19:51:34.4285] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4286] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 84
+[19:51:34.4287] Issuing DNLOAD request
+[19:51:34.4313] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4315] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 84
+[19:51:34.4319] Issuing DNLOAD request
+[19:51:34.4335] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4337] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 85
+[19:51:34.4339] Issuing DNLOAD request
+[19:51:34.4360] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4361] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 85
+[19:51:34.4363] Issuing DNLOAD request
+[19:51:34.4388] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4389] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 85
+[19:51:34.4391] Issuing DNLOAD request
+[19:51:34.4414] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4416] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 85
+[19:51:34.4419] Issuing DNLOAD request
+[19:51:34.4440] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4442] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 85
+[19:51:34.4444] Issuing DNLOAD request
+[19:51:34.4462] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4464] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 85
+[19:51:34.4468] Issuing DNLOAD request
+[19:51:34.4487] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4490] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 86
+[19:51:34.4493] Issuing DNLOAD request
+[19:51:34.4511] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4512] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 86
+[19:51:34.4513] Issuing DNLOAD request
+[19:51:34.4532] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4533] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 86
+[19:51:34.4534] Issuing DNLOAD request
+[19:51:34.4558] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4559] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 86
+[19:51:34.4561] Issuing DNLOAD request
+[19:51:34.4580] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4582] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 86
+[19:51:34.4584] Issuing DNLOAD request
+[19:51:34.4608] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4609] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 86
+[19:51:34.4610] Issuing DNLOAD request
+[19:51:34.4634] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4635] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 87
+[19:51:34.4637] Issuing DNLOAD request
+[19:51:34.4658] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4660] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 87
+[19:51:34.4660] Issuing DNLOAD request
+[19:51:34.4683] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4684] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 87
+[19:51:34.4685] Issuing DNLOAD request
+[19:51:34.4709] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4710] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 87
+[19:51:34.4712] Issuing DNLOAD request
+[19:51:34.4738] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4741] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 87
+[19:51:34.4744] Issuing DNLOAD request
+[19:51:34.4767] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4768] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 87
+[19:51:34.4769] Issuing DNLOAD request
+[19:51:34.4794] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4795] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 88
+[19:51:34.4797] Issuing DNLOAD request
+[19:51:34.4814] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4817] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 88
+[19:51:34.4821] Issuing DNLOAD request
+[19:51:34.4837] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4840] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 88
+[19:51:34.4841] Issuing DNLOAD request
+[19:51:34.4864] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4865] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 88
+[19:51:34.4866] Issuing DNLOAD request
+[19:51:34.4890] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4891] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 88
+[19:51:34.4895] Issuing DNLOAD request
+[19:51:34.4916] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4917] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 88
+[19:51:34.4918] Issuing DNLOAD request
+[19:51:34.4942] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4943] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 89
+[19:51:34.4945] Issuing DNLOAD request
+[19:51:34.4969] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4971] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 89
+[19:51:34.4976] Issuing DNLOAD request
+[19:51:34.4997] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.4999] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 89
+[19:51:34.5001] Issuing DNLOAD request
+[19:51:34.5021] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5023] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 89
+[19:51:34.5025] Issuing DNLOAD request
+[19:51:34.5043] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5044] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 89
+[19:51:34.5045] Issuing DNLOAD request
+[19:51:34.5064] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5065] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 89
+[19:51:34.5067] Issuing DNLOAD request
+[19:51:34.5092] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5094] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 90
+[19:51:34.5097] Issuing DNLOAD request
+[19:51:34.5121] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5122] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 90
+[19:51:34.5123] Issuing DNLOAD request
+[19:51:34.5142] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5144] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 90
+[19:51:34.5146] Issuing DNLOAD request
+[19:51:34.5163] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5164] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 90
+[19:51:34.5165] Issuing DNLOAD request
+[19:51:34.5185] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5186] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 90
+[19:51:34.5188] Issuing DNLOAD request
+[19:51:34.5211] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5212] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 90
+[19:51:34.5214] Issuing DNLOAD request
+[19:51:34.5236] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5237] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 91
+[19:51:34.5238] Issuing DNLOAD request
+[19:51:34.5262] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5263] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 91
+[19:51:34.5265] Issuing DNLOAD request
+[19:51:34.5288] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5289] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 91
+[19:51:34.5291] Issuing DNLOAD request
+[19:51:34.5314] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5315] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 91
+[19:51:34.5317] Issuing DNLOAD request
+[19:51:34.5339] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5340] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 91
+[19:51:34.5342] Issuing DNLOAD request
+[19:51:34.5361] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5362] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 91
+[19:51:34.5364] Issuing DNLOAD request
+[19:51:34.5385] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5386] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 92
+[19:51:34.5387] Issuing DNLOAD request
+[19:51:34.5411] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5412] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 92
+[19:51:34.5414] Issuing DNLOAD request
+[19:51:34.5432] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5433] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 92
+[19:51:34.5434] Issuing DNLOAD request
+[19:51:34.5457] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5460] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 92
+[19:51:34.5463] Issuing DNLOAD request
+[19:51:34.5485] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5486] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 92
+[19:51:34.5487] Issuing DNLOAD request
+[19:51:34.5510] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5511] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 92
+[19:51:34.5513] Issuing DNLOAD request
+[19:51:34.5535] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5537] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 93
+[19:51:34.5540] Issuing DNLOAD request
+[19:51:34.5557] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5558] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 93
+[19:51:34.5560] Issuing DNLOAD request
+[19:51:34.5700] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5702] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 93
+[19:51:34.5705] Issuing DNLOAD request
+[19:51:34.5721] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5727] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 93
+[19:51:34.5727] Issuing DNLOAD request
+[19:51:34.5744] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5746] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 93
+[19:51:34.5747] Issuing DNLOAD request
+[19:51:34.5762] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5765] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 93
+[19:51:34.5765] Issuing DNLOAD request
+[19:51:34.5779] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5782] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 94
+[19:51:34.5782] Issuing DNLOAD request
+[19:51:34.5797] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5799] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 94
+[19:51:34.5800] Issuing DNLOAD request
+[19:51:34.5814] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5816] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 94
+[19:51:34.5817] Issuing DNLOAD request
+[19:51:34.5833] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5835] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 94
+[19:51:34.5836] Issuing DNLOAD request
+[19:51:34.5851] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5852] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 94
+[19:51:34.5855] Issuing DNLOAD request
+[19:51:34.5868] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5870] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 94
+[19:51:34.5871] Issuing DNLOAD request
+[19:51:34.5886] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5888] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 95
+[19:51:34.5888] Issuing DNLOAD request
+[19:51:34.5904] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5906] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 95
+[19:51:34.5908] Issuing DNLOAD request
+[19:51:34.5923] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5925] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 95
+[19:51:34.5925] Issuing DNLOAD request
+[19:51:34.5940] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5942] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 95
+[19:51:34.5943] Issuing DNLOAD request
+[19:51:34.5958] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5960] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 95
+[19:51:34.5960] Issuing DNLOAD request
+[19:51:34.5975] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5978] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 95
+[19:51:34.5978] Issuing DNLOAD request
+[19:51:34.5993] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.5996] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 96
+[19:51:34.5996] Issuing DNLOAD request
+[19:51:34.6013] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6024] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 96
+[19:51:34.6025] Issuing DNLOAD request
+[19:51:34.6039] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6039] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 96
+[19:51:34.6043] Issuing DNLOAD request
+[19:51:34.6057] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6059] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 96
+[19:51:34.6059] Issuing DNLOAD request
+[19:51:34.6076] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6079] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 96
+[19:51:34.6079] Issuing DNLOAD request
+[19:51:34.6094] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6098] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 96
+[19:51:34.6099] Issuing DNLOAD request
+[19:51:34.6113] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6115] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 97
+[19:51:34.6121] Issuing DNLOAD request
+[19:51:34.6138] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6139] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 97
+[19:51:34.6141] Issuing DNLOAD request
+[19:51:34.6159] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6161] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 97
+[19:51:34.6163] Issuing DNLOAD request
+[19:51:34.6178] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6179] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 97
+[19:51:34.6180] Issuing DNLOAD request
+[19:51:34.6196] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6197] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 97
+[19:51:34.6199] Issuing DNLOAD request
+[19:51:34.6215] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6215] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 97
+[19:51:34.6217] Issuing DNLOAD request
+[19:51:34.6233] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6233] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 98
+[19:51:34.6235] Issuing DNLOAD request
+[19:51:34.6262] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6263] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 98
+[19:51:34.6264] Issuing DNLOAD request
+[19:51:34.6281] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6282] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 98
+[19:51:34.6284] Issuing DNLOAD request
+[19:51:34.6299] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6300] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 98
+[19:51:34.6302] Issuing DNLOAD request
+[19:51:34.6317] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6318] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 98
+[19:51:34.6320] Issuing DNLOAD request
+[19:51:34.6335] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6336] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 98
+[19:51:34.6337] Issuing DNLOAD request
+[19:51:34.6353] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6354] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 99
+[19:51:34.6355] Issuing DNLOAD request
+[19:51:34.6373] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6373] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 99
+[19:51:34.6375] Issuing DNLOAD request
+[19:51:34.6391] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6392] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 99
+[19:51:34.6393] Issuing DNLOAD request
+[19:51:34.6409] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6410] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 99
+[19:51:34.6412] Issuing DNLOAD request
+[19:51:34.6428] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6429] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 99
+[19:51:34.6432] Issuing DNLOAD request
+[19:51:34.6448] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6449] <DFU Device 0x7fdbf6783cb0>: operation 2 progress 99
+[19:51:34.6450] Issuing DNLOAD request
+[19:51:34.6460] Issued GETSTATUS request: state = 5 status = 0
+[19:51:34.6460] Issuing DNLOAD request
+[19:51:34.6465] Issued GETSTATUS request: state = 6 status = 0
+[19:51:34.6999] Issued GETSTATUS request: state = 7 status = 0
+[19:51:34.7693] <DFU Device 0x7fdbf6783cb0>: DFU succeeded
+[19:51:34.7695] Finished DFU Restore Phase: Successful
+[19:51:34.7714] DFU mode device disconnected
+[19:51:34.7714] Device removed when in state Restoring, moving device to transition state
+[19:51:34.7714] Changing state from 'Restoring' to 'Transitioning'
+[19:51:34.7714] Creating timer to monitor transition
+[19:51:34.7714] Creating a timer for 10 minutes
+[19:51:37.2575] Recovery mode device connected
+[19:51:37.2575] _AMDFUModeDeviceFinalize: 0x7fdbf6783cb0
+[19:51:37.2576] Transitioning device returned, continuing restore.
+[19:51:37.2576] Canceling timer
+[19:51:37.2576] Changing state from 'Transitioning' to 'Restoring'
+[19:51:37.2599] requested restore behavior: Erase
+[19:51:37.2599] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: searching for variant Erase (0 recovery)
+[19:51:37.2929] amai: AMAuthInstallBundleCopyBuildIdentityForVariant: AMAuthInstallBundleCopyBuildIdentityForVariant: Found variant: Customer Erase Install (IPSW)
+[19:51:37.2995] amai: AMAuthInstallBundleFDRSupported: FDR is supported for this device
+[19:51:37.3006] no override trust object found
+[19:51:37.3006] requested restore behavior: Erase
+[19:51:37.3006] requested restore behavior: Erase
+[19:51:37.3006] Device will not use nonce slots
+[19:51:37.3010] _AMRUSBDeviceSendDeviceRequestTO_block_invoke: AMRUSBDevice error (-536854449): {
+[19:51:37.3010]     "Error message" = "DeviceRequest failed: 0xe000404f (IOKit return code). DeviceRequest was index: 0, direction: 0, requestType: 2, recipient: 0, request: 0, value: 0, length: 12, noDataTO: 60000, completionTO: 60000";
+[19:51:37.3010] }
+[19:51:37.3012] command device request for 'getenv anid' failed: 2008
+[19:51:37.3012] No anid set, will not set anid in IM4R
+[19:51:37.3012] requested restore behavior: Erase
+[19:51:37.3012] requested variant: Erase
+[19:51:37.3021] no override trust object found
+[19:51:37.3021] requested restore behavior: Erase
+[19:51:37.3021] requested restore behavior: Erase
+[19:51:37.3021] amai: AMAuthInstallBundleFDRSupported: FDR is supported for this device
+[19:51:37.3021] amai: _AMAuthInstallBundleShouldPersonalizeOS: Personalize OS = Yes
+[19:51:37.3021] amai: _AMAuthInstallBundleShouldPersonalizeOS: Personalize OS = Yes
+[19:51:37.3022] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3022] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3022] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3022] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3027] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3030] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3030] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3031] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3031] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3031] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3032] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3032] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3032] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3033] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3037] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3037] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3037] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3037] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3037] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3037] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3037] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3038] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3038] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3038] amai: _CFDictionaryGetBoolean: dict is NULL
+[19:51:37.3092] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreDeviceTree to Manifest to personalize later
+[19:51:37.3093] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreKernelCache to Manifest to personalize later
+[19:51:37.3095] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreRamDisk to Manifest to personalize later
+[19:51:37.3095] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting iBEC to Manifest to personalize later
+[19:51:37.3096] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting iBSS to Manifest to personalize later
+[19:51:37.3098] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting KernelCache to Manifest to personalize later
+[19:51:37.3098] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting ftap to Manifest to personalize later
+[19:51:37.3103] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting rfta to Manifest to personalize later
+[19:51:37.3103] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting ftsp to Manifest to personalize later
+[19:51:37.3103] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting rfts to Manifest to personalize later
+[19:51:37.3105] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting Ap,SystemVolumeCanonicalMetadata to Manifest to personalize later
+[19:51:37.3105] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting SystemVolume to Manifest to personalize later
+[19:51:37.3107] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting OS to Manifest to personalize later
+[19:51:37.3107] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting LLB to Manifest to personalize later
+[19:51:37.3109] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting SEP to Manifest to personalize later
+[19:51:37.3110] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting AOP to Manifest to personalize later
+[19:51:37.3111] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreTrustCache to Manifest to personalize later
+[19:51:37.3112] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting StaticTrustCache to Manifest to personalize later
+[19:51:37.3113] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting InputDevice to Manifest to personalize later
+[19:51:37.3116] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting RestoreSEP to Manifest to personalize later
+[19:51:37.3116] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting MacEFI to Manifest to personalize later
+[19:51:37.3116] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting DeviceTree to Manifest to personalize later
+[19:51:37.3118] amai: _AMAuthInstallBundleCopyOverrideBuildIdentity: Inserting iBoot to Manifest to personalize later
+[19:51:37.3119] amai: _AMAuthInstallBundleCreateServerRequestDictionary: ticketPath amai/apimg4ticket.der , withApTicket is False,  (!True && ( True || False))
+[19:51:37.3120] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "RestoreLogo" not part of manifest, skipping
+[19:51:37.3122] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "RestoreDeviceTree"
+[19:51:37.3123] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "RestoreKernelCache"
+[19:51:37.3124] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "RestoreRamDisk"
+[19:51:37.3128] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "OSRamdisk" not part of manifest, skipping
+[19:51:37.3128] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "iBEC"
+[19:51:37.3128] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "iBSS"
+[19:51:37.3128] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "KernelCache"
+[19:51:37.3129] amai: _AMAuthInstallBundleCreateServerRequestDictionary: skipping "ftap" entry
+[19:51:37.3132] amai: _AMAuthInstallBundleCreateServerRequestDictionary: skipping "rfta" entry
+[19:51:37.3133] amai: _AMAuthInstallBundleCreateServerRequestDictionary: skipping "ftsp" entry
+[19:51:37.3133] amai: _AMAuthInstallBundleCreateServerRequestDictionary: skipping "rfts" entry
+[19:51:37.3133] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "Ap,SystemVolumeCanonicalMetadata"
+[19:51:37.3134] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "x86,SystemVolumeCanonicalMetadata" not part of manifest, skipping
+[19:51:37.3138] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "BaseSystemVolume" not part of manifest, skipping
+[19:51:37.3138] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "x86,BaseSystemVolume" not part of manifest, skipping
+[19:51:37.3138] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "SystemVolume"
+[19:51:37.3141] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "x86,SystemVolume" not part of manifest, skipping
+[19:51:37.3141] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "Ap,BaseSystemTrustCache" not part of manifest, skipping
+[19:51:37.3141] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "Diags" not part of manifest, skipping
+[19:51:37.3142] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "CFELoader" not part of manifest, skipping
+[19:51:37.3142] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "RBM" not part of manifest, skipping
+[19:51:37.3142] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "PHLEET" not part of manifest, skipping
+[19:51:37.3142] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "PERTOS" not part of manifest, skipping
+[19:51:37.3150] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "PEHammer" not part of manifest, skipping
+[19:51:37.3152] amai: _AMAuthInstallBundleCreateServerRequestDictionary: entry "Alamo" not part of manifest, skipping
+[19:51:37.3152] amai: _AMAuthInstallBundleCreateServerRequestDictionary: skipping "OS" entry
+[19:51:37.3156] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "LLB"
+[19:51:37.3157] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "SEP"
+[19:51:37.3176] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "AOP"
+[19:51:37.3177] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "RestoreTrustCache"
+[19:51:37.3177] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "StaticTrustCache"
+[19:51:37.3177] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "InputDevice"
+[19:51:37.3177] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "RestoreSEP"
+[19:51:37.3177] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "MacEFI"
+[19:51:37.3178] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "DeviceTree"
+[19:51:37.3178] amai: _AMAuthInstallBundleCreateServerRequestDictionary: not personalizing "iBoot"
+[19:51:37.3178] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property UniqueBuildID into request
+[19:51:37.3208] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,TargetType into request
+[19:51:37.3208] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,ProductType into request
+[19:51:37.3208] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,SDKPlatform into request
+[19:51:37.3209] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,Target into request
+[19:51:37.3209] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,ProductMarketingVersion into request
+[19:51:37.3209] amai: _AMAuthInstallBundlePopulateManifestProperties: Copying manifest property Ap,Timestamp into request. (Via BuildManifest)
+[19:51:37.3209] amai: _AMAuthInstallBundlePopulateManifestProperties: Finished copying manifest entitlements.
+[19:51:37.3218] amai: _AMAuthInstallBundleCreateServerRequestDictionary: nothing to be done
+[19:51:37.3250] Setting kAMRestoreOptionsiBootEANNuke.
+[19:51:37.3257] _AMRUSBDeviceSendDeviceRequestTO_block_invoke: AMRUSBDevice error (-536870195): {
+[19:51:37.3257]     "Error message" = "DeviceRequest failed: 0xe00002cd (IOKit return code). DeviceRequest was index: 1, direction: 0, requestType: 0, recipient: 1, request: 11, value: 0, length: 0, noDataTO: 5000, completionTO: 0";
+[19:51:37.3257] }
+[19:51:37.3259] error setting interface's alternate setting: 2001 (expected, not fatal).
+[19:51:37.3277] iBoot build-version = iBoot-11881.140.96
+[19:51:37.3283] iBoot build-style = RELEASE
+[19:51:37.3284] <Recovery Mode Device 0x7fdbf72bcbb0>: operation 4 progress -1
+[19:51:37.3290] unable to open device_map.txt: No such file or directory
+[19:51:37.3297] found device map entry for 0x00008012 0x0000000c 0x00000001. boardConfig=j132ap platform=t8012
+[19:51:37.3299] _AMRestoreCopyDeviceMapPlistEntryForHardware: firmwareDirectory not in options
+[19:51:37.3299] requested restore behavior: Erase
+[19:51:37.3330] requested restore behavior: Erase
+[19:51:37.3358] unable to open device_map.txt: No such file or directory
+[19:51:37.3362] found device map entry for 0x00008012 0x0000000c 0x00000001. boardConfig=j132ap platform=t8012
+[19:51:37.3363] _AMRestoreCopyDeviceMapPlistEntryForHardware: firmwareDirectory not in options
+[19:51:37.3367] _AMRUSBDeviceSendDeviceRequestTO_block_invoke: AMRUSBDevice error (-536854449): {
+[19:51:37.3367]     "Error message" = "DeviceRequest failed: 0xe000404f (IOKit return code). DeviceRequest was index: 0, direction: 0, requestType: 2, recipient: 0, request: 0, value: 0, length: 19, noDataTO: 60000, completionTO: 60000";
+[19:51:37.3367] }
+[19:51:37.3368] command device request for 'getenv radio-error' failed: 2008
+[19:51:37.3368] radio-error not set
+[19:51:37.3370] unable to open device_map.txt: No such file or directory
+[19:51:37.3376] <Recovery Mode Device 0x7fdbf72bcbb0>: production fused device
+[19:51:37.3378] unable to open device_map.txt: No such file or directory
+[19:51:37.3385] found device map entry for 0x00008012 0x0000000c 0x00000001. boardConfig=j132ap platform=t8012
+[19:51:37.3386] _AMRestoreCopyDeviceMapPlistEntryForHardware: firmwareDirectory not in options
+[19:51:37.3387] requested restore behavior: Erase
+[19:51:37.3406] requested restore behavior: Erase
+[19:51:37.3425] unable to open device_map.txt: No such file or directory
+[19:51:37.3428] found device map entry for 0x00008012 0x0000000c 0x00000001. boardConfig=j132ap platform=t8012
+[19:51:37.3429] _AMRestoreCopyDeviceMapPlistEntryForHardware: firmwareDirectory not in options
+[19:51:37.3431] requested restore behavior: Erase
+[19:51:37.3454] requested restore behavior: Erase
+[19:51:37.3473] requested restore behavior: Erase
+[19:51:37.3499] _AMRUSBDeviceSendDeviceRequestTO_block_invoke: AMRUSBDevice error (-536854449): {
+[19:51:37.3499]     "Error message" = "DeviceRequest failed: 0xe000404f (IOKit return code). DeviceRequest was index: 0, direction: 0, requestType: 2, recipient: 0, request: 0, value: 0, length: 18, noDataTO: 60000, completionTO: 60000";
+[19:51:37.3499] }
+[19:51:37.3502] command device request for 'getenv boot-stage' failed: 2008
+[19:51:37.3579] requested restore behavior: Erase
+[19:51:37.3601] Failed to get URL for key: RestoreLogo
+[19:51:37.3601] Failed to locate boot graphic
+[19:51:37.3602] No additional boot images found
+[19:51:37.3604] unable to open device_map.txt: No such file or directory
+[19:51:37.3609] found device map entry for 0x00008012 0x0000000c 0x00000001. boardConfig=j132ap platform=t8012
+[19:51:37.3610] _AMRestoreCopyDeviceMapPlistEntryForHardware: firmwareDirectory not in options
+[19:51:37.5264] <Recovery Mode Device 0x7fdbf72bcbb0>: operation 8 progress -1
+[19:51:37.5270] unable to open device_map.txt: No such file or directory
+[19:51:37.5279] found device map entry for 0x00008012 0x0000000c 0x00000001. boardConfig=j132ap platform=t8012
+[19:51:37.5281] _AMRestoreCopyDeviceMapPlistEntryForHardware: firmwareDirectory not in options
+[19:51:37.5286] No readable value found in kAMRestoreOptionsRestoreNVRAMVariables
+[19:51:37.5288] Sending RestoreTrustCache to device. (1 of 1)
+[19:51:37.5295] Max file size is: 134217728
+[19:51:37.5296] sending file: /var/folders/zk/hkgbrn6s0692p78d3hpr6r200000gn/T/4deaccf9cebc0f3e/Firmware/RestoreTrustCache_043-17285-090.dmg.img4
+[19:51:37.5337] <Recovery Mode Device 0x7fdbf72bcbb0>: operation 5 progress -1
+[19:51:37.5340] sending file: /var/folders/zk/hkgbrn6s0692p78d3hpr6r200000gn/T/4deaccf9cebc0f3e/RestoreRamDisk_043-17285-090.img4
+[19:51:40.8117] unable to open device_map.txt: No such file or directory
+[19:51:40.8123] found device map entry for 0x00008012 0x0000000c 0x00000001. boardConfig=j132ap platform=t8012
+[19:51:40.8123] _AMRestoreCopyDeviceMapPlistEntryForHardware: firmwareDirectory not in options
+[19:51:40.8128] _AMRUSBDeviceSendDeviceRequestTO_block_invoke: AMRUSBDevice error (-536854449): {
+[19:51:40.8128]     "Error message" = "DeviceRequest failed: 0xe000404f (IOKit return code). DeviceRequest was index: 0, direction: 0, requestType: 2, recipient: 0, request: 0, value: 0, length: 21, noDataTO: 60000, completionTO: 60000";
+[19:51:40.8128] }
+[19:51:40.8129] command device request for 'getenv ramdisk-delay' failed: 2008
+[19:51:42.4210] <Recovery Mode Device 0x7fdbf72bcbb0>: operation 6 progress -1
+[19:51:42.4226] Max file size is: 134217728
+[19:51:42.4227] sending file: /var/folders/zk/hkgbrn6s0692p78d3hpr6r200000gn/T/4deaccf9cebc0f3e/Firmware/all_flash/RestoreDeviceTree_DeviceTree.j132ap.img4
+[19:51:43.0229] Recovery mode device disconnected
+[19:51:43.4345] <Recovery Mode Device 0x7fdbf72bcbb0>: operation 6 progress -1
+[19:51:43.4354] _AMRUSBDeviceSendDeviceRequestTO_block_invoke: AMRUSBDevice error (-536870208): {
+[19:51:43.4354]     "Error message" = "DeviceRequest failed: 0xe00002c0 (IOKit return code). DeviceRequest was index: 0, direction: 0, requestType: 2, recipient: 0, request: 0, value: 0, length: 20, noDataTO: 60000, completionTO: 60000";
+[19:51:43.4354] }
+[19:51:43.4356] command device request for 'getenv ramdisk-size' failed: 2015
+[19:51:43.4357] Unable to query iBoot ramdisk-size. Libusbrestore error : 268435456
+[19:51:43.4358] Max file size is: 268435456
+[19:51:43.4362] sending file: /var/folders/zk/hkgbrn6s0692p78d3hpr6r200000gn/T/4deaccf9cebc0f3e/Firmware/all_flash/RestoreSEP_sep-firmware.j132.RELEASE.img4
+[19:51:43.4369] _AMRUSBDeviceSendDeviceRequestTO_block_invoke: AMRUSBDevice error (-536870208): {
+[19:51:43.4369]     "Error message" = "DeviceRequest failed: 0xe00002c0 (IOKit return code). DeviceRequest was index: 0, direction: 0, requestType: 2, recipient: 1, request: 0, value: 0, length: 0, noDataTO: 5000, completionTO: 0";
+[19:51:43.4369] }
+[19:51:43.4369] _sendRestoreSEPToDevice failed with 2015
+[19:51:43.4370] AMRAuthInstallDeletePersonalizedBundle
+[19:51:43.4370] preserved personalized bundle: (null)
+[19:51:43.4373] <Recovery Mode Device 0x7fdbf72bcbb0>: Recovery mode failed (result = 2015)
+[19:51:43.4373] Finished Recovery Restore Phase: Failed
+[19:51:43.4374] State Machine Dump, status:ERROR - [state:DFU remaining-cycles:1] -> [state:Recovery remaining-cycles:1 (current state)] -> [state:RestoreOS remaining-cycles:1]
+[19:51:43.4380] Changing state from 'Restoring' to 'Error'
+[19:51:43.4380] State is now set to error: Failed to restore device in recovery mode, libusbrestore error:2015
+[19:51:43.4381] Device isn't booted but USB is up.
+[19:51:43.4398] Restore completed, status: 2015
+[19:51:43.4398] Elapsed time (in seconds): 11
+[19:51:43.4398] Failure Description:
+[19:51:43.4398] Depth:0 Code:2015 Error:Failed to restore device in recovery mode, libusbrestore error:2015
