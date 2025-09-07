@@ -22,7 +22,8 @@ Full Logs Here: [https://github.com/The1Dominater/2018MacBookRecovery.git][3]
 - I tried downgrading the macOS version of the host MacBook Air to Mojave because Mr. Macintosh says the macs need to be the same version for the DFU restore mode to work, but I could not get the MacBook Air to downgrade(potentially the issue?).
 
 It kept failing with the error: `The Mac "Mac" could not be updated. An unknown error occurred(2015).`
-[!2015Error][7]
+
+![2015 Error][7]
 
  5. **Battery Disconnect**: I unscrewed the back plate and disconnected the battery, and then held down the power button for 30-secs to attempt to clear the RAM(probably pointless because this seems like either a T2 chip problem or a storage device defect) and any other residue power on the board. After attempting to restore from *Apple Configurator* at last the Apple logo reappeared, but the restore failed with error after error:
 
