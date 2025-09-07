@@ -7,9 +7,9 @@ Currently my 2018 MacBook Pro 13"(4-Thunderbolt USB-C) Model A1989 with a T2 sec
  2. **Recovery Mode:** I still could not install the Sequoia (or Sonoma) upgrade through *System Preferences* so I booted into recovery mode to see if I could reinstall Mojave to fix the issue. Once in recovery mode I was offered to reinstall Catalina(the macOS version after Mojave) so I attempted this even though it said it would erase the disk. I walked away for awhile, and I came back and it was in the language selection screen for setting up the Mac. I left it for a day because I was going to give the Mac to my brother so I figured he could go through the setup menu and personalize it himself.
  3. **NVRAM and SMC**: I tried [resetting the NVRAM][1] using `ctl + opt + R + P` after pressing the power button. I tried [resetting the SMC][2] using `opt + cmd + R-shift` and then pressing the power button for 7 seconds. 
  4. **DFU mode:** Upon returning to the Mac to set it up, it booted to a the flashing ? folder. I restarted it in recovery mode again which brought me to the spinning globe icon and I connected to the internet. I again was presented with the reinstall prompt and seeming no way to get around it so I tried reinstalling again. However, this turned my Mac into a brick which would not power on, no fans, no logo, and no trackpad clicking. After some googling I attempted to follow these guides in this order to revive/restore from DFU mode using my mom's 2018 MacBook Air 13" Model A1932 running macOS Sonoma 14.7.8:
-- Apple: `https://support.apple.com/en-us/108900`
-- Mr. Macintosh: `https://mrmacintosh.com/how-to-restore-bridgeos-on-a-t2-mac-how-to-put-a-mac-into-dfu-mode/`
-- Wiki: `https://logi.wiki/index.php/DFU_Mode_Restore_(Macs)`
+- Apple: [https://support.apple.com/en-us/108900][4]
+- Mr. Macintosh: [https://mrmacintosh.com/how-to-restore-bridgeos-on-a-t2-mac-how-to-put-a-mac-into-dfu-mode/][5]
+- Wiki: [https://logi.wiki/index.php/DFU_Mode_Restore_(Macs)][6]
 
 This first time I saw the affected MacBook Pro in DFU mode on the host machine a phone download image popped up briefly and finished like when you flash iPhone in recovery mode. I repeated the revive/restore process again. I am confident I was able to get the MacBook Pro into DFU mode as I could see it in both *Finder* and the *Apple Configurator 2(v2.18)*. When I tried revive/restore in *Finder* I was able to find these logs in *Console > Log Reports > iBridgeUpdater.log* 
 
@@ -22,6 +22,7 @@ Full Logs Here: [https://github.com/The1Dominater/2018MacBookRecovery.git][3]
 - I tried downgrading the macOS version of the host MacBook Air to Mojave because Mr. Macintosh says the macs need to be the same version for the DFU restore mode to work, but I could not get the MacBook Air to downgrade(potentially the issue?).
 
 It kept failing with the error: `The Mac "Mac" could not be updated. An unknown error occurred(2015).`
+[!2015Error][7]
 
  5. **Battery Disconnect**: I unscrewed the back plate and disconnected the battery, and then held down the power button for 30-secs to attempt to clear the RAM(probably pointless because this seems like either a T2 chip problem or a storage device defect) and any other residue power on the board. After attempting to restore from *Apple Configurator* at last the Apple logo reappeared, but the restore failed with error after error:
 
@@ -38,3 +39,8 @@ MacBook Pro was bricked after attempting to do a combo upgrade. Tried Recovery M
   [1]: https://support.apple.com/en-us/102539
   [2]: https://support.apple.com/en-us/102605
   [3]: https://github.com/The1Dominater/2018MacBookRecovery.git
+  [4]: https://support.apple.com/en-us/108900
+  [5]: https://mrmacintosh.com/how-to-restore-bridgeos-on-a-t2-mac-how-to-put-a-mac-into-dfu-mode/
+  [6]: https://logi.wiki/index.php/DFU_Mode_Restore_(Macs)
+  [7]: DFU-Errors/IMG_6558.jpg
+  
