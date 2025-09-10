@@ -42,6 +42,8 @@ c. `(AMRestoreErrorDomain error -1 - Failed to handle message type StatusMsg (Ge
 **Conclusion:**
 MacBook Pro was bricked after attempting to do a combo upgrade. Tried Recovery Mode, NVRAM & SMC reset, and DFU restore. Going to take it to Apple Repair Specialist to see if it can be fixed even though it is not under warranty, and will post an update here on the results.
 
+**UPDATE** I took it to a shop and they told me the motherboard was damaged. To replace it would be $400, but a used one is only $250 so I think it's time to say goodbye.
+
 
   [1]: https://support.apple.com/en-us/102539
   [2]: https://support.apple.com/en-us/102605
